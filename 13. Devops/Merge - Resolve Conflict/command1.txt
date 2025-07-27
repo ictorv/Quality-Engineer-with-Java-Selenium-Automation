@@ -1,0 +1,8 @@
+# 1. Display the current branch name
+git branch
+
+# 2. Merge with branch "DEV_feature"
+git merge DEV_feature
+
+# 3. Display the difference in the Employee.java file
+git diff Employee.java

@@ -1,0 +1,28 @@
+Started by user S Victor Kumar
+Running in workspace C:\Jenkins\workspace\Maven-Pipeline
+ 
+[Pipeline] Start of Pipeline
+[Pipeline] stage
+[Pipeline] { (compile)
+[Pipeline] git
+Cloning repository https://github.com/kutty27/Build-Maven-Project.git
+> git init C:\Jenkins\workspace\Maven-Pipeline # timeout=10
+> git fetch --tags --progress https://github.com/kutty27/Build-Maven-Project.git +refs/heads/*:refs/remotes/origin/*
+> git checkout origin/main -b main
+[Pipeline] bat
+> mvn clean compile
+[INFO] Scanning for projects...
+[INFO] BUILD SUCCESS
+[Pipeline] }
+[Pipeline] stage
+[Pipeline] { (test)
+[Pipeline] git
+> git checkout origin/main -b main
+[Pipeline] bat
+> mvn clean test
+[INFO] Running tests...
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] BUILD SUCCESS
+[Pipeline] }
+[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FlightReservation>
+  <Reservation id = "1">
+    <Name>George</Name>
+    <PhoneNumber>9258745455</PhoneNumber>
+    <NumberOfPersons>3</NumberOfPersons>
+    <DepartureCity>Pune</DepartureCity>
+    <DestinationCity>Delhi</DestinationCity>
+  </Reservation>
+</FlightReservation>

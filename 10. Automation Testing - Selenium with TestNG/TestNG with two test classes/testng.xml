@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" >
+    <!-- Include the parallel attribute to run tests in parallel in test tag-->
+  <test name="Test" parallel="class">
+    <classes>
+        <class name="TestStudentPassword"/>
+        <class name="TestStudentResult"/>
+       <!--Add the required class names-->
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

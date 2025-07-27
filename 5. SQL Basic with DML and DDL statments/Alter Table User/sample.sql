@@ -1,0 +1,2 @@
+ALTER TABLE USER 
+CHANGE COLUMN address contact_info VARCHAR(20);

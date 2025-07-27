@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UserDetails>
+   <User id = "1">
+    <Name>Emily John</Name>
+    <Address>New York</Address>
+    <MobileNo>1-45-67234</MobileNo>
+    <Email>john.emily@gmail.com</Email>    
+  </User>
+ </UserDetails>

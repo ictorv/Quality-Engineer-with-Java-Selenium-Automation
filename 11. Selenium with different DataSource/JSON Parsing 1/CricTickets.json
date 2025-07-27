@@ -1,0 +1,16 @@
+{
+	"title":"CricTickets",
+	"BookingDetails":[
+		{
+			"id":"1",
+			"ContactNumber":"9254785103",
+			"EmailId":"joe@gmail.com",
+			"City":"Boston",
+         	"MatchDate":"2023-08-12",
+         	"MatchTime":"6.00 pm",
+         	"NumberOfTickets":"5",
+         	"MatchName":"GT Vs CK",
+         	"Snacks":"Popcorn"
+       	}
+	]
+}

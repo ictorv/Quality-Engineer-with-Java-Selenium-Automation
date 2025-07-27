@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "1f9b9b4d-4a30-4084-a239-96ba5b5c990c",
+		"name": "User Service 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46242086",
+		"_collection_link": "https://ictorv-7948312.postman.co/workspace/ictorv's-Workspa~8980a85d-b70a-4381-8ee1-139f4a12da69/collection/46242086-1f9b9b4d-4a30-4084-a239-96ba5b5c990c?action=share&source=collection_link&creator=46242086"
+	},
+	"item": [
+		{
+			"name": "View All Users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// ✅ Test name: Check Status Code\r",
+							"pm.test(\"Check Status Code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// 📞 Test name: CheckPhoneNumber\r",
+							"pm.test(\"CheckPhoneNumber\", function () {\r",
+							"    let responseData = pm.response.json();\r",
+							"    for (let i = 0; i < responseData.length; i++) {\r",
+							"        if (responseData[i].userId === 1002) {\r",
+							"            pm.expect(responseData[i].userMobile).to.eql(\"2121412121\");\r",
+							"        }\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://webapps.tekstac.com/MovieAPI/UserService/viewUserList",
+					"protocol": "https",
+					"host": [
+						"webapps",
+						"tekstac",
+						"com"
+					],
+					"path": [
+						"MovieAPI",
+						"UserService",
+						"viewUserList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

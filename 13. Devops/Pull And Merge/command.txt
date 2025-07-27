@@ -1,0 +1,14 @@
+# 1) Display current branch name
+git branch
+
+# 2) Pull the DEV_payment branch from remote origin
+git pull origin DEV_payment
+
+# 3) Switch to DEV_payment branch using checkout
+git checkout DEV_payment
+
+# 4) Switch to DEV_feature branch using checkout
+git checkout DEV_feature
+
+# 5) Merge the DEV_payment branch into the DEV_feature branch
+git merge DEV_payment

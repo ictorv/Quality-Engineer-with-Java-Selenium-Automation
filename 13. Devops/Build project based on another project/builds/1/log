@@ -1,0 +1,28 @@
+Started by user [8mha:////4HFsBDQg+wL33o5A3WlOWkAPDa6wKFoYjaSszq8FIb0QAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9xJTMksrE+KLELABDpnwnxQAAAA==[0mAditya Raj
+Running as SYSTEM
+Building in workspace C:\jenkinsprojects\CreateJar_freestyle
+[CreateJar_freestyle] $ cmd /c call C:\Windows\TEMP\jenkins17325664102464672814.bat
+ 
+C:\jenkinsprojects\CreateJar_freestyle>javac *.java
+ 
+C:\jenkinsprojects\CreateJar_freestyle>jar cvfm vehicle.jar manifest.txt *.class 
+added manifest
+adding: Bike.class(in = 663) (out= 360)(deflated 45%)
+adding: Car.class(in = 657) (out= 360)(deflated 45%)
+adding: Main.class(in = 583) (out= 406)(deflated 30%)
+adding: Vehicle.class(in = 169) (out= 134)(deflated 20%)
+ 
+C:\jenkinsprojects\CreateJar_freestyle>java -jar vehicle.jar 
+Bike is starting.
+Bike is accelerating.
+Bike is braking.
+Bike is stopping.
+ 
+Car is starting.
+Car is accelerating.
+Car is braking.
+Car is stopping.
+ 
+C:\jenkinsprojects\CreateJar_freestyle>exit 0 
+Triggering a new build of [8mha:////4NQjkgzwIL78wAwjohgMUxB44Np81vK659GMivJIFP6jAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwuoBn6WflJ+sGpQNUpqkYGIA4Ay5pamMcAAAA=[0mSecond job
+Finished: SUCCESS

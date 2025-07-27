@@ -1,0 +1,15 @@
+# 1. Modify Employee.java to resolve the conflict
+# (This step is manual — you edit the file to look like this:)
+# public class Employee {
+#     int empid;
+#     String name;
+# }
+
+# 2. Add Employee.java to Git
+git add Employee.java
+
+# 3. Commit the resolved file
+git commit -m "Employee is in sync with branch"
+
+# 4. Merge DEV_feature with master (already done, but this ensures it's complete)
+git merge DEV_feature
