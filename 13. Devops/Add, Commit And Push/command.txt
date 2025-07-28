@@ -1,0 +1,12 @@
+# Step 1: Add the method to Employee.java
+echo -e "\npublic double averageTax() {\n\n}" >> Employee.java
+
+# Step 2: Stage the file
+git add Employee.java
+
+# Step 3: Commit with the appropriate message
+git commit -m "Method AverageTax included"
+
+# Step 4: Push to the DEV_feature branch
+git push http://student1:studentpassword@localhost:9080/student1/test1.git DEV_feature
+

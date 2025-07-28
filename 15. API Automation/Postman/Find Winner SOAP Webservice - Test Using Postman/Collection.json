@@ -1,0 +1,70 @@
+{
+  "info": {
+    "_postman_id": "ec505de6-5e7e-4035-b90d-a1237d7f0a87",
+    "name": "IPL 1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Find Winner",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Check Winner\", function () {",
+              "    pm.expect(pm.response.text()).to.include(\"Mumbai Indians\");",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/xml",
+            "type": "text"
+          },
+          {
+            "key": "SOAPAction",
+            "value": "",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <Body>\n    <getWinnerTeam xmlns=\"http://ipl\">\n      <year>{{Year}}</year>\n    </getWinnerTeam>\n  </Body>\n</Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://webapps.tekstac.com/IplDatabaseSoapWebservice/services/IplDatabase",
+          "protocol": "https",
+          "host": [
+            "webapps",
+            "tekstac",
+            "com"
+          ],
+          "path": [
+            "IplDatabaseSoapWebservice",
+            "services",
+            "IplDatabase"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "Year",
+      "value": "2015"
+    }
+  ]
+}

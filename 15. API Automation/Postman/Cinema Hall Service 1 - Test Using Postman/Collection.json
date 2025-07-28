@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "90c2cabf-a21b-4c48-a3d1-3a4a09742600",
+		"name": "Cinema Hall Service 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46242086",
+		"_collection_link": "https://ictorv-7948312.postman.co/workspace/ictorv's-Workspa~8980a85d-b70a-4381-8ee1-139f4a12da69/collection/46242086-90c2cabf-a21b-4c48-a3d1-3a4a09742600?action=share&source=collection_link&creator=46242086"
+	},
+	"item": [
+		{
+			"name": "Update Price",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// 1. Check JSON Response\r",
+							"pm.test(\"Check JSON Response\", function () {\r",
+							"    pm.response.to.be.withBody;\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"// 2. Check Response Content Type\r",
+							"pm.test(\"Check JSON Response\", function () {\r",
+							"    pm.response.to.have.body;\r",
+							"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"// 3. Check Price\r",
+							"pm.test(\"Check Price\", function () {\r",
+							"    const res = pm.response.json();\r",
+							"    const hall = res.find(h => h.cinemaHallId === 3102);\r",
+							"    pm.expect(hall).to.not.be.undefined;\r",
+							"    pm.expect(hall.ticketPrice).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// 4. Check Time\r",
+							"pm.test(\"Check Time\", function () {\r",
+							"    const moment = require('moment');\r",
+							"    let currentTime = moment().format(\"HH.mm\");\r",
+							"    let res = pm.response.json();\r",
+							"    if (res[0].startTime === currentTime) {\r",
+							"        console.log(\"true\");\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cinemaHallId",
+							"value": "3102",
+							"type": "text"
+						},
+						{
+							"key": "cinemaHallName",
+							"value": "INOX",
+							"type": "text"
+						},
+						{
+							"key": "screenName",
+							"value": "Screen1",
+							"type": "text"
+						},
+						{
+							"key": "movieName",
+							"value": "KGF : Chapter 2",
+							"type": "text"
+						},
+						{
+							"key": "startTime",
+							"value": "5.30 pm",
+							"type": "text"
+						},
+						{
+							"key": "endTime",
+							"value": "8.30 pm",
+							"type": "text"
+						},
+						{
+							"key": "totalSeats",
+							"value": "120",
+							"type": "text"
+						},
+						{
+							"key": "seatStatus",
+							"value": "AVAILABLE",
+							"type": "text"
+						},
+						{
+							"key": "ticketPrice",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Coimbatore",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://webapps.tekstac.com/MovieAPI/CinemaHallService/updateCinemaPrice",
+					"protocol": "https",
+					"host": [
+						"webapps",
+						"tekstac",
+						"com"
+					],
+					"path": [
+						"MovieAPI",
+						"CinemaHallService",
+						"updateCinemaPrice"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

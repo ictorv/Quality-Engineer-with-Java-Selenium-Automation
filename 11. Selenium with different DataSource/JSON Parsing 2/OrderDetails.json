@@ -1,0 +1,10 @@
+{
+	"cover": "OrderDetails",
+	"Order": [{
+			"Item": "Spring Roll",
+			"SpecialItem": "Yes",
+			"Quantity": "5",
+			"Delivery": "Self-PickUp",
+			"Area": "Adyar"
+		}]
+}

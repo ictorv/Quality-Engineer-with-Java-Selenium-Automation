@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContactDetails>
+  <Service id = "1">
+    <NickName>TechMaster</NickName>
+    <ContactName>John Smith</ContactName>
+    <Company>ABC Corporation</Company>
+    <City>New York</City>
+    <Country>United States</Country>
+    <Type>Software Development</Type>    
+   </Service>
+</ContactDetails>

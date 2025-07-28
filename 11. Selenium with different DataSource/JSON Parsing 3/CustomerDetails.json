@@ -1,0 +1,10 @@
+{
+	"cover": "CustomerDetails",
+	"Customer": [{
+			"Name": "Emily Brown",
+			"Age": "36",
+			"Address": "123 Street",
+			"PhoneNumber": "8776547864",
+			"Email": "brown.emily@gmail.com"
+		}]
+}
