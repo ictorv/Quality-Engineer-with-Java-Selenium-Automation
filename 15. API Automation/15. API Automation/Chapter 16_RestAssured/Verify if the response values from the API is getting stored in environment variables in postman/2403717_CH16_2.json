@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "9032216d-22a3-4b3a-b265-d423e69a7fad",
+		"name": "TekStack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46097716",
+		"_collection_link": "https://onkarjha-9081163.postman.co/workspace/Onkar-Jha's-Workspace~365a59c0-87f7-499b-84bf-b39611db6c2c/collection/46097716-9032216d-22a3-4b3a-b265-d423e69a7fad?action=share&source=collection_link&creator=46097716"
+	},
+	"item": [
+		{
+			"name": "Ch_16_code_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Check if status code is 200 or 201\r",
+							"pm.test(\"Status code is 200 or 201\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);\r",
+							"});\r",
+							"\r",
+							"// Parse response and store ID in environment variable\r",
+							"pm.test(\"Store user ID in environment variable\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.environment.set(\"userId\", jsonData.id);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "d9134cbe0b1ce70252167ff16ee7e41b05da60c46eeba2f233fdc3e46b725691",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"name\": \"Jackson\",\r\n     \"gender\": \"male\",\r\n     \"email\": \"dd@sbc1.com\",\r\n     \"status\": \"active\"\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

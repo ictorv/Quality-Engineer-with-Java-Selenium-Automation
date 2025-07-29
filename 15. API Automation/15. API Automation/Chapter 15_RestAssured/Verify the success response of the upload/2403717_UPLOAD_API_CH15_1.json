@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "b34da4b7-d57e-425b-a3f2-0f122b0d82be",
+		"name": "File Upload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46097716",
+		"_collection_link": "https://onkarjha-9081163.postman.co/workspace/Onkar-Jha's-Workspace~365a59c0-87f7-499b-84bf-b39611db6c2c/collection/46097716-b34da4b7-d57e-425b-a3f2-0f122b0d82be?action=share&source=collection_link&creator=46097716"
+	},
+	"item": [
+		{
+			"name": "Ch_15_code_1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

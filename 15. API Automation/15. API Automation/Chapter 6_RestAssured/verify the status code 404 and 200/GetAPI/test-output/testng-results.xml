@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-08T18:01:51 IST" name="Default suite" finished-at="2025-07-08T18:01:54 IST" duration-ms="3082">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T18:01:51 IST" name="Default test" finished-at="2025-07-08T18:01:54 IST" duration-ms="3082">
+      <class name="tests.DeleteNonExistingProductTest">
+        <test-method is-config="true" signature="createProduct()[pri:0, instance:tests.DeleteNonExistingProductTest@1bd4fdd]" started-at="2025-07-08T18:01:51 IST" name="createProduct" finished-at="2025-07-08T18:01:54 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method signature="deleteNonExistingProduct()[pri:2, instance:tests.DeleteNonExistingProductTest@1bd4fdd]" started-at="2025-07-08T18:01:54 IST" name="deleteNonExistingProduct" finished-at="2025-07-08T18:01:54 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNonExistingProduct -->
+      </class> <!-- tests.DeleteNonExistingProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
