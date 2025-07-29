@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T20:07:31 IST" name="IRCTC Flight Booking Suite" finished-at="2025-06-20T20:08:05 IST" duration-ms="34536">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T20:07:31 IST" name="Flight Search Test" finished-at="2025-06-20T20:07:51 IST" duration-ms="20069">
+      <class name="com.TestScenario.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:31 IST" name="startReporter" finished-at="2025-06-20T20:07:31 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:31 IST" name="setup" finished-at="2025-06-20T20:07:39 IST" duration-ms="7642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlightSearch()[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:39 IST" name="testFlightSearch" finished-at="2025-06-20T20:07:46 IST" duration-ms="7584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearch -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:46 IST" name="getResult" finished-at="2025-06-20T20:07:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightSearch status=SUCCESS method=TestMain.testFlightSearch()[pri:0, instance:com.TestScenario.TestMain@7dcf94f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:46 IST" name="tearDown" finished-at="2025-06-20T20:07:51 IST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.TestScenario.TestMain@7dcf94f8]" started-at="2025-06-20T20:07:51 IST" name="flushReport" finished-at="2025-06-20T20:07:51 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.TestScenario.TestMain -->
+    </test> <!-- Flight Search Test -->
+    <test started-at="2025-06-20T20:07:51 IST" name="Flight Search Test2" finished-at="2025-06-20T20:08:05 IST" duration-ms="14446">
+      <class name="com.TestScenario.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:07:51 IST" name="startReporter" finished-at="2025-06-20T20:07:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:07:51 IST" name="setup" finished-at="2025-06-20T20:07:56 IST" duration-ms="5066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlightSearch()[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:07:56 IST" name="testFlightSearch" finished-at="2025-06-20T20:08:03 IST" duration-ms="6775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearch -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:08:03 IST" name="getResult" finished-at="2025-06-20T20:08:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightSearch status=SUCCESS method=TestMain.testFlightSearch()[pri:0, instance:com.TestScenario.TestMain@7d20d0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:08:03 IST" name="tearDown" finished-at="2025-06-20T20:08:05 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.TestScenario.TestMain@7d20d0b]" started-at="2025-06-20T20:08:05 IST" name="flushReport" finished-at="2025-06-20T20:08:05 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.TestScenario.TestMain -->
+    </test> <!-- Flight Search Test2 -->
+  </suite> <!-- IRCTC Flight Booking Suite -->
+</testng-results>

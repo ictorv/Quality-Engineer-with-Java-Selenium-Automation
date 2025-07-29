@@ -1,0 +1,3898 @@
+[
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:00:05.786Z",
+				"before": [
+					{
+						"result": {
+							"duration": 4735964300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Searching for bikes with varying input",
+				"description": "",
+				"id": "zigwheels-home-page;searching-for-bikes-with-varying-input",
+				"after": [
+					{
+						"result": {
+							"duration": 1771926300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 1253687400,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1992200,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 293081900,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user enters random data in the search box",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.userEntersSearchTerm1()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 4393500,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 75689100,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the element not found error message will be printed",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.messageShouldBeDisplayed1()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 17046300,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "checking home page validation",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.homePageValidation()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:00:14.092Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3663690300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 11,
+				"name": "Validation of regression testing",
+				"description": "",
+				"id": "zigwheels-home-page;validation-of-regression-testing",
+				"after": [
+					{
+						"result": {
+							"duration": 2460833600,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 1411745000,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "user will hover on More in header of website",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.more()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 8257491100,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "user will click on used cars",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_will_click_on_used_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 14053500,
+							"status": "passed"
+						},
+						"line": 14,
+						"name": "checking usedCars page validation",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.usedCarsValidation()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@smoke"
+					}
+				]
+			}
+		],
+		"name": "ZigWheels Home Page",
+		"description": "",
+		"id": "zigwheels-home-page",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_001.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:00:29.915Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3586700000,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "User attempting to log in with invalid credentials",
+				"description": "",
+				"id": "zigwheels-google-login;user-attempting-to-log-in-with-invalid-credentials",
+				"after": [
+					{
+						"result": {
+							"duration": 2819972900,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 471840000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 572354500,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user clicks on the Login/Signup",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_login_signup_button_before_google_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for pageObject.GoogleLoginPage$$Lambda/0x000001e527551ef8@23b1aa9 (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.34.0', revision: '707dcb4246*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\2403716\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62652/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ed55dfc7b13067bb814173a1aeff1de7\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)\r\n\tat pageObject.GoogleLoginPage.googleLogin(GoogleLoginPage.java:60)\r\n\tat stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_google_login_option(TC_002_GoogleLoginPageSteps.java:34)\r\n\tat ✽.the user clicks on the Google login option(file:///C:/Users/2403716/Selenium-workspace/2403716_IdentifyNewBikes/src/test/resources/featurefile/TC_002.feature:7)\r\n",
+							"duration": 11108435600,
+							"status": "failed"
+						},
+						"line": 7,
+						"name": "the user clicks on the Google login option",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_google_login_option()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 276741400,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 8,
+						"name": "the user is redirected to the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_is_redirected_to_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 9,
+						"name": "the user enters empty credentials",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_enters_empty_credentials()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 65100,
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 10,
+						"name": "an error message is displayed on the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.an_error_message_is_displayed_on_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 11,
+						"name": "the user enters an invalid email for Google login",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_enters_an_invalid_email_for_google_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 998500,
+							"status": "skipped"
+						},
+						"line": 12,
+						"name": "an invalid email message is displayed on the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.an_invalid_email_message_is_displayed_on_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 13,
+						"name": "the user closes the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_closes_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:00:48.790Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3750038100,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "User attempting to log in with invalid credentials",
+				"description": "",
+				"id": "zigwheels-google-login;user-attempting-to-log-in-with-invalid-credentials",
+				"after": [
+					{
+						"result": {
+							"duration": 4395799100,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 10579047900,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 246290800,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user clicks on the Login/Signup",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_login_signup_button_before_google_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1067500,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 918962900,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user clicks on the Google login option",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_google_login_option()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 999100,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the user is redirected to the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_is_redirected_to_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 2880376200,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "the user enters empty credentials",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_enters_empty_credentials()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 43337200,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "an error message is displayed on the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.an_error_message_is_displayed_on_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 235636400,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "the user enters an invalid email for Google login",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_enters_an_invalid_email_for_google_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1131900,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 61947100,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "an invalid email message is displayed on the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.an_invalid_email_message_is_displayed_on_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 78293000,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "the user closes the Google login page",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_closes_the_google_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			}
+		],
+		"name": "ZigWheels Google Login",
+		"description": "",
+		"id": "zigwheels-google-login",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_002.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			},
+			{
+				"name": "@regression",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:01:12.005Z",
+				"before": [
+					{
+						"result": {
+							"duration": 12054166500,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Login through Apple with invalid details",
+				"description": "",
+				"id": "user-login-through-apple;login-through-apple-with-invalid-details",
+				"after": [
+					{
+						"result": {
+							"duration": 3435665300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 1531091800,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1001800,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 250279500,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user clicks on the Login/Signup",
+						"match": {
+							"location": "stepDefination.TC_002_GoogleLoginPageSteps.the_user_clicks_on_the_login_signup_button_before_google_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 1302364700,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user clicks on the Apple login option",
+						"match": {
+							"location": "stepDefination.TC_003_AppleLoginSteps.the_user_clicks_on_the_apple_login_option()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 513500,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 4290537100,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "user enters Phone Number",
+						"match": {
+							"location": "stepDefination.TC_003_AppleLoginSteps.user_provide_phone_number_in_apple_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1048919200,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "user enter the incorrect password",
+						"match": {
+							"location": "stepDefination.TC_003_AppleLoginSteps.user_enter_the_incorrect_password_in_apple_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1014145600,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "display a invalid cradentials errorMessage",
+						"match": {
+							"location": "stepDefination.TC_003_AppleLoginSteps.display_a_invalid_error_message_in_apple_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 996100,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 47405700,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "the user closes the Apple login page",
+						"match": {
+							"location": "stepDefination.TC_003_AppleLoginSteps.the_user_closes_the_apple_login_page()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			}
+		],
+		"name": "User Login through Apple",
+		"description": "",
+		"id": "user-login-through-apple",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_003.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			},
+			{
+				"name": "@regression",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:01:37.001Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3749026200,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Searching for Used Cars in Chennai",
+				"description": "",
+				"id": "zigwheels-honda-used-cars;searching-for-used-cars-in-chennai",
+				"after": [
+					{
+						"result": {
+							"duration": 2185293700,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 471108200,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 603207400,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user will hover on More in header of website",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.more()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.000\n  (Session info: chrome=137.0.7151.69)\nBuild info: version: '4.34.0', revision: '707dcb4246*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [41755366fb24fc3243e0743c19cdcde8, clickElement {id=f.D646567E7829DECBF5ED6717124EEAC0.d.AAFD0B454529A7FAF6550A788F69B07C.e.189}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\2403716\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63415/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (41755366fb24fc3243e0743c19cdcde8)] -> xpath: //div//a[@title='Used Cars']]\nSession ID: 41755366fb24fc3243e0743c19cdcde8\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)\r\n\tat pageObject.HomePage.usedCars(HomePage.java:166)\r\n\tat stepDefination.TC_004_UsedCarsSteps.user_will_click_on_used_cars(TC_004_UsedCarsSteps.java:63)\r\n\tat ✽.user will click on used cars(file:///C:/Users/2403716/Selenium-workspace/2403716_IdentifyNewBikes/src/test/resources/featurefile/TC_004.feature:7)\r\n",
+							"duration": 15085541000,
+							"status": "failed"
+						},
+						"line": 7,
+						"name": "user will click on used cars",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_will_click_on_used_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 141591900,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 8,
+						"name": "user will select loction as Chennai",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_click_select_loction_as_chennai()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 9,
+						"name": "user apply Popular Models filter",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_apply_popular_models_filter()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 10,
+						"name": "all the popular cars are displayed",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.all_the_popular_cars_are_displayed()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:01:59.260Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3768009800,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Searching for Used Cars in Chennai",
+				"description": "",
+				"id": "zigwheels-honda-used-cars;searching-for-used-cars-in-chennai",
+				"after": [
+					{
+						"result": {
+							"duration": 4266230400,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 755566400,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 314054700,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user will hover on More in header of website",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.more()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 10551741300,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user will click on used cars",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_will_click_on_used_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 234059900,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "user will select loction as Chennai",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_click_select_loction_as_chennai()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1019600,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 10630430200,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "user apply Popular Models filter",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_apply_popular_models_filter()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 4264843100,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "all the popular cars are displayed",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.all_the_popular_cars_are_displayed()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 998400,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			}
+		],
+		"name": "ZigWheels Honda Used Cars",
+		"description": "",
+		"id": "zigwheels-honda-used-cars",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_004.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			},
+			{
+				"name": "@regression",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		]
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:02:34.066Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3856991500,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Searching for Honda Upcoming Bikes and display result",
+				"description": "",
+				"id": "zigwheels-honda-upcoming-bikes;searching-for-honda-upcoming-bikes-and-display-result",
+				"after": [
+					{
+						"result": {
+							"duration": 2221839300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 849977300,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 785107200,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user enters invalid data in the search box",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.userEntersSearchTerm()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1016000,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 243506300,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "display the searchTerm not found message",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.not_found_message()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1082833300,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the user clicks New Bikes",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.newBike()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 283214800,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "enter Honda in Search New Bikes",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.selectmake()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1352898100,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "click Search button",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.searchButton()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 172820300,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "click on readmore button",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.userClicksReadmore()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 995900,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 876194600,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "filters the results for upcoming bikes priced under 4 lakhs",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.filterUpcomingBikes()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 97724500,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "FAQs about upcoming Honda models should be printed",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.printFaqs()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 122176700,
+							"status": "passed"
+						},
+						"line": 14,
+						"name": "display the upcoming bikes",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.display()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 170833100,
+							"status": "passed"
+						},
+						"line": 15,
+						"name": "display result",
+						"match": {
+							"location": "stepDefination.TC_005_UpcomingBikesSteps.pass_fail()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			}
+		],
+		"name": "ZigWheels Honda Upcoming Bikes",
+		"description": "",
+		"id": "zigwheels-honda-upcoming-bikes",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_005.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			},
+			{
+				"name": "@regression",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		]
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:02:46.206Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3634619300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "User filters new scooters by brand and views available options",
+				"description": "",
+				"id": "display-new-scooters-for-selected-make;user-filters-new-scooters-by-brand-and-views-available-options",
+				"after": [
+					{
+						"result": {
+							"duration": 2541235400,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 751852800,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3337328300,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user clicks on the Scooters",
+						"match": {
+							"location": "stepDefination.TC_006_NewScootersSteps.the_user_clicks_on_the_tab()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 138617500,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user selects TVS as the make",
+						"match": {
+							"location": "stepDefination.TC_006_NewScootersSteps.the_user_selects_as_the_make()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 883237800,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user clicks the search button",
+						"match": {
+							"location": "stepDefination.TC_006_NewScootersSteps.the_user_clicks_the_search_button()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1000500,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 249543900,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the new TVS scooters are displayed",
+						"match": {
+							"location": "stepDefination.TC_006_NewScootersSteps.the_user_should_see_a_list_of_new_scooters()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Display new scooters for selected make",
+		"description": "",
+		"id": "display-new-scooters-for-selected-make",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_006.feature",
+		"tags": []
+	},
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:02:57.762Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3662058400,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 4,
+				"name": "Searching for Used Cars in Chennai and displaying",
+				"description": "",
+				"id": "zigwheels-used-cars-filters-displying;searching-for-used-cars-in-chennai-and-displaying",
+				"after": [
+					{
+						"result": {
+							"duration": 2237469400,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 267592800,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user will hover on More in header of website",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.more()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1016600,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3672084800,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "user will click on used cars",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_will_click_on_used_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 307439100,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user will select loction as Chennai",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.user_click_select_loction_as_chennai()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 305791000,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "user will click on More filters button",
+						"match": {
+							"location": "stepDefination.TC_007_FiltersValidationSteps.moreButton()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 219271400,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "display the avaliable filters and verify",
+						"match": {
+							"location": "stepDefination.TC_007_FiltersValidationSteps.display_the_available_filters_and_verify()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@smoke"
+					},
+					{
+						"name": "@regression"
+					}
+				]
+			}
+		],
+		"name": "ZigWheels Used Cars Filters displying",
+		"description": "",
+		"id": "zigwheels-used-cars-filters-displying",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_007.feature",
+		"tags": [
+			{
+				"name": "@smoke",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			},
+			{
+				"name": "@regression",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		]
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:03:08.450Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3558182600,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "Select car details and join the community forum",
+				"description": "",
+				"id": "forum-navigation-and-join-community;select-car-details-and-join-the-community-forum",
+				"after": [
+					{
+						"result": {
+							"duration": 3990236800,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 210761700,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user will hover on More in header of website",
+						"match": {
+							"location": "stepDefination.TC_004_UsedCarsSteps.more()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1007800,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3646910600,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user will click on the Forum",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.user_will_click_on_used_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 38725600,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user will be navigated to the Forum Community page",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.froum_Community_page_validation()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 499670000,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user selects \"Car\" from the vehicle type dropdown",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.vehicle_Type_Dropdown()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 211591800,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the user selects \"Toyota\" as the make",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.selectCompany()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 184553600,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "the user selects \"Fortuner\" as the model",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.selectModel()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 2047796200,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "the user clicks the \"Search\" button",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.hitSearch()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 60545300,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "the user clicks the \"Join Community\" button",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.joinCommunity()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 15199100,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "the company community page should be displayed",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.froum_Company_page_validation()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 4927275700,
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "the user clicks on the FB login option",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.click_fb_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 48856900,
+							"status": "passed"
+						},
+						"line": 14,
+						"name": "the user enters Invalid credentials",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.fb()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 131040900,
+							"status": "passed"
+						},
+						"line": 15,
+						"name": "the user clicks on login",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.click_login()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 772400,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 10498819000,
+							"status": "passed"
+						},
+						"line": 16,
+						"name": "an error message is displayed on the FB login page",
+						"match": {
+							"location": "stepDefination.TC_008_ForumSteps.errormesage()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Forum Navigation and Join Community",
+		"description": "",
+		"id": "forum-navigation-and-join-community",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_008.feature",
+		"tags": []
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:03:38.540Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3680293900,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "Select the Location and Make and find the location of Service Center",
+				"description": "",
+				"id": "find-service-centers-for-given-loction-and-make;select-the-location-and-make-and-find-the-location-of-service-center",
+				"after": [
+					{
+						"result": {
+							"duration": 2931633600,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 3568708600,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "the user is on  Home Page and clicks on New Cars",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.user_on_homePage()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1001000,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 371205900,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user clicks on Service Centers from Quick Research",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.user_clicks_on_Service_Center()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 163725600,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user enters the city",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.enter_city()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 247466500,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user enters the Car Make",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.enter_make()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 543118900,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the user click search button",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.click_search()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 8501776200,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "the user clicks on direction to get the location of service center",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.click_direction()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 2000900,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "the URL of the loction direction is captured",
+						"match": {
+							"location": "stepDefination.TC_009_ServiceCenter.direction_url()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1006800,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				]
+			}
+		],
+		"name": "Find Service Centers for given loction and make",
+		"description": "",
+		"id": "find-service-centers-for-given-loction-and-make",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_009.feature",
+		"tags": []
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:03:58.567Z",
+				"before": [
+					{
+						"result": {
+							"error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.660\n  (Session info: chrome=137.0.7151.69)\nBuild info: version: '4.34.0', revision: '707dcb4246*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e91a279e07a6571b7d6140382a7ad7c4, get {url=https://www.zigwheels.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\2403716\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65041/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e91a279e07a6571b7d6140382a7ad7c4\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\r\n\tat hooks.Hooks.setup(Hooks.java:33)\r\n",
+							"duration": 17087876600,
+							"status": "failed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "Checking EMI calculator for sample data",
+				"description": "",
+				"id": "zegwheels-emi-calculator-check;checking-emi-calculator-for-sample-data",
+				"after": [
+					{
+						"result": {
+							"duration": 1989238600,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 5,
+						"name": "clicks on the NEW CARS",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.clicks_on_the_new_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 6,
+						"name": "Scroll to the Quick Research and click on the EMI Calculator",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.scrolls_to_the_quick_research()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 7,
+						"name": "set Make, Model and Verient",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_make_model_and_variant()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 8,
+						"name": "click on Check EMI",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.click_on_the_check_emi()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 9,
+						"name": "Adjust the Downpayment using the Slider",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.adjust_the_downpayment_using_the_slider()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 10,
+						"name": "Set the Loan Tenure by select duration in years",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_the_loan_tenure_by_select_duration_in_years()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 11,
+						"name": "Set the Intrest rate using the Slider",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_the_intrest_rate_using_the_slider()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1328200,
+							"status": "skipped"
+						},
+						"line": 12,
+						"name": "Display the value showed below Your monthly EMI",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.display_the_value_showed_below_your_monthly_emi()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:04:17.661Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3555422300,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "Checking EMI calculator for sample data",
+				"description": "",
+				"id": "zegwheels-emi-calculator-check;checking-emi-calculator-for-sample-data",
+				"after": [
+					{
+						"result": {
+							"duration": 3255083500,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 440013400,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3777496400,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "clicks on the NEW CARS",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.clicks_on_the_new_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 392931000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "Scroll to the Quick Research and click on the EMI Calculator",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.scrolls_to_the_quick_research()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 565450200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "set Make, Model and Verient",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_make_model_and_variant()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 470771900,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "click on Check EMI",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.click_on_the_check_emi()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 7456077600,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "Adjust the Downpayment using the Slider",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.adjust_the_downpayment_using_the_slider()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 172249400,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "Set the Loan Tenure by select duration in years",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_the_loan_tenure_by_select_duration_in_years()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3597861900,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "Set the Intrest rate using the Slider",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.set_the_intrest_rate_using_the_slider()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 14998400,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "Display the value showed below Your monthly EMI",
+						"match": {
+							"location": "stepDefination.TC_010_EMICalculator.display_the_value_showed_below_your_monthly_emi()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "ZegWheels EMI calculator check",
+		"description": "",
+		"id": "zegwheels-emi-calculator-check",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_010.feature",
+		"tags": []
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:04:41.374Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3692429800,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 2,
+				"name": "Checking whether the Top Bike Brands logo is Displayed in the Home Page",
+				"description": "",
+				"id": "checking-top-bike-brands-displayed;checking-whether-the-top-bike-brands-logo-is-displayed-in-the-home-page",
+				"after": [
+					{
+						"result": {
+							"duration": 2431214000,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 10693263300,
+							"status": "passed"
+						},
+						"line": 3,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 75929500,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "scroll to the Top Car brands in India",
+						"match": {
+							"location": "stepDefination.TC_011_Top_Bike_brands.scroll_to_the_top_car_brands_in_india()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 3251704200,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "check whether all 12 Brands are displayed or not",
+						"match": {
+							"location": "stepDefination.TC_011_Top_Bike_brands.check_whether_all_brands_are_displayed_or_not()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 3032000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "validate the retrived Brands",
+						"match": {
+							"location": "stepDefination.TC_011_Top_Bike_brands.validate_the_retrived_brands()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 997800,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Checking Top Bike Brands Displayed",
+		"description": "",
+		"id": "checking-top-bike-brands-displayed",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_011.feature",
+		"tags": []
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2025-07-16T11:05:01.533Z",
+				"before": [
+					{
+						"result": {
+							"error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.726\n  (Session info: chrome=137.0.7151.69)\nBuild info: version: '4.34.0', revision: '707dcb4246*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [aaf5b2b23786b251bb9f047f06547842, get {url=https://www.zigwheels.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\2403716\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: aaf5b2b23786b251bb9f047f06547842\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\r\n\tat hooks.Hooks.setup(Hooks.java:33)\r\n",
+							"duration": 17158889100,
+							"status": "failed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "The user is on home page and clicks all the header elements and then on the logo to navigate back to home page",
+				"description": "",
+				"id": "check-the-fuctionality-of-zigwheels-logo;the-user-is-on-home-page-and-clicks-all-the-header-elements-and-then-on-the-logo-to-navigate-back-to-home-page",
+				"after": [
+					{
+						"result": {
+							"duration": 1984902800,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 5,
+						"name": "the user clicks on news and reviews",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.news_and_reviews()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 6,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 7,
+						"name": "the user clicks on new cars",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1003600,
+							"status": "skipped"
+						},
+						"line": 8,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 9,
+						"name": "the user clicks on new bikes",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_bikes()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 10,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 11,
+						"name": "the user clicks on scooters",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.scooters()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 1287500,
+							"status": "skipped"
+						},
+						"line": 12,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 13,
+						"name": "the result pass or fail is printed",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.result()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:05:20.698Z",
+				"before": [
+					{
+						"result": {
+							"error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.709\n  (Session info: chrome=137.0.7151.69)\nBuild info: version: '4.34.0', revision: '707dcb4246*'\nSystem info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d0152b00a08a6007b0e6fd64ab68297f, get {url=https://www.zigwheels.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\\Users\\2403716\\AppData\\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49405/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d0152b00a08a6007b0e6fd64ab68297f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)\r\n\tat hooks.Hooks.setup(Hooks.java:33)\r\n",
+							"duration": 17077717300,
+							"status": "failed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "The user is on home page and clicks all the header elements and then on the logo to navigate back to home page",
+				"description": "",
+				"id": "check-the-fuctionality-of-zigwheels-logo;the-user-is-on-home-page-and-clicks-all-the-header-elements-and-then-on-the-logo-to-navigate-back-to-home-page",
+				"after": [
+					{
+						"result": {
+							"duration": 1622698100,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 5,
+						"name": "the user clicks on news and reviews",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.news_and_reviews()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 6,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 7,
+						"name": "the user clicks on new cars",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 8,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1010500,
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 9,
+						"name": "the user clicks on new bikes",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_bikes()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 10,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 11,
+						"name": "the user clicks on scooters",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.scooters()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 12,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "skipped"
+						},
+						"line": 13,
+						"name": "the result pass or fail is printed",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.result()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "skipped"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2025-07-16T11:05:39.410Z",
+				"before": [
+					{
+						"result": {
+							"duration": 3521498900,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.setup()"
+						}
+					}
+				],
+				"line": 3,
+				"name": "The user is on home page and clicks all the header elements and then on the logo to navigate back to home page",
+				"description": "",
+				"id": "check-the-fuctionality-of-zigwheels-logo;the-user-is-on-home-page-and-clicks-all-the-header-elements-and-then-on-the-logo-to-navigate-back-to-home-page",
+				"after": [
+					{
+						"result": {
+							"duration": 3076989100,
+							"status": "passed"
+						},
+						"match": {
+							"location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+						}
+					}
+				],
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 428650500,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "the user is on the ZigWheels Homepage",
+						"match": {
+							"location": "stepDefination.TC_001_HomePageSteps.the_user_is_on_ZigWheels()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 3487089100,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "the user clicks on news and reviews",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.news_and_reviews()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 809089500,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 1066174200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "the user clicks on new cars",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_cars()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 648728600,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"duration": 1003300,
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 1205312600,
+							"status": "passed"
+						},
+						"line": 9,
+						"name": "the user clicks on new bikes",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.new_bikes()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 639797500,
+							"status": "passed"
+						},
+						"line": 10,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 1546439100,
+							"status": "passed"
+						},
+						"line": 11,
+						"name": "the user clicks on scooters",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.scooters()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 844371900,
+							"status": "passed"
+						},
+						"line": 12,
+						"name": "the user clicks on logo",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.click_logo()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"status": "passed"
+						},
+						"line": 13,
+						"name": "the result pass or fail is printed",
+						"match": {
+							"location": "stepDefination.TC_012_Logo_Functionality.result()"
+						},
+						"after": [
+							{
+								"result": {
+									"status": "passed"
+								},
+								"match": {
+									"location": "hooks.Hooks.addScreenshotToAllure(io.cucumber.java.Scenario)"
+								}
+							}
+						],
+						"keyword": "And "
+					}
+				]
+			}
+		],
+		"name": "Check the Fuctionality of ZigWheels Logo",
+		"description": "",
+		"id": "check-the-fuctionality-of-zigwheels-logo",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/featurefile/TC_012.feature",
+		"tags": []
+	}
+]

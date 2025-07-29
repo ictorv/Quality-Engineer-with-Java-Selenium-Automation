@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T15:23:03 IST" name="Suite" finished-at="2025-06-30T15:24:25 IST" duration-ms="82337">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T15:23:03 IST" name="chromeTest" finished-at="2025-06-30T15:23:48 IST" duration-ms="45354">
+      <class name="testMain.Rediff_Main_Test">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@55fe41ea]" started-at="2025-06-30T15:23:03 IST" name="driverConfig" finished-at="2025-06-30T15:23:13 IST" duration-ms="10110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@55fe41ea]" started-at="2025-06-30T15:23:14 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:23:27 IST" duration-ms="12530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kamal1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kamal@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20-JUN-2000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gaza Strip]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@55fe41ea]" started-at="2025-06-30T15:23:27 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:23:37 IST" duration-ms="9795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yuki Nakamura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yui.Nakamura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yui#4567 ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[03-NOV-1988]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@55fe41ea]" started-at="2025-06-30T15:23:37 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:23:45 IST" duration-ms="8300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leo Martin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leo.martin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Martin$99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26-JUL-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testMain.Rediff_Main_Test@55fe41ea]" started-at="2025-06-30T15:23:45 IST" name="tearDown" finished-at="2025-06-30T15:23:48 IST" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testMain.Rediff_Main_Test -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-06-30T15:23:49 IST" name="edgeTest" finished-at="2025-06-30T15:24:25 IST" duration-ms="36674">
+      <class name="testMain.Rediff_Main_Test">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@4e50c791]" started-at="2025-06-30T15:23:49 IST" name="driverConfig" finished-at="2025-06-30T15:23:55 IST" duration-ms="6750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@4e50c791]" started-at="2025-06-30T15:23:56 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:24:07 IST" duration-ms="11421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kamal1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kamal@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20-JUN-2000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gaza Strip]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@4e50c791]" started-at="2025-06-30T15:24:07 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:24:14 IST" duration-ms="7236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yuki Nakamura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yui.Nakamura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yui#4567 ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[03-NOV-1988]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Japan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method signature="rediffMainTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testMain.Rediff_Main_Test@4e50c791]" started-at="2025-06-30T15:24:14 IST" name="rediffMainTest" data-provider="rediffData" finished-at="2025-06-30T15:24:22 IST" duration-ms="7359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leo Martin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leo.martin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Martin$99]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26-JUL-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffMainTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testMain.Rediff_Main_Test@4e50c791]" started-at="2025-06-30T15:24:22 IST" name="tearDown" finished-at="2025-06-30T15:24:25 IST" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testMain.Rediff_Main_Test -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

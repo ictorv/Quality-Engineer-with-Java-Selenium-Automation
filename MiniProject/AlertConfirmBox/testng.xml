@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AlertConfirmPromptSuite" parallel="false" thread-count="2">
+    
+    <!-- First test case execution on Chrome browser -->
+    <test name="AlertConfirmPromptSuiteTests">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <!-- Specifies the test class to run -->
+            <class name="com.test.TestScenario.AlertPromptConfirm"/>
+        </classes>
+    </test>
+
+    <!-- Second test case execution on Edge browser -->
+    <test name="AlertConfirmPromptSuiteTests2">
+        <parameter name="browserName" value="edge"/>
+        <classes>
+            <!-- Reuses the same test class with a different browser configuration -->
+            <class name="com.test.TestScenario.AlertPromptConfirm"/>
+        </classes>
+    </test>
+
+</suite>

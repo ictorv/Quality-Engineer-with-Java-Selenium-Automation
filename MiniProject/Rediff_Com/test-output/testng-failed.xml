@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Rediff-Test-Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.selenium.mainTest.TestMain">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flushReport"/>
+          <include name="radiff"/>
+          <include name="getResult"/>
+          <include name="testDataRead"/>
+          <include name="startReporter"/>
+          <include name="driverConfig"/>
+        </methods>
+      </class> <!-- com.selenium.mainTest.TestMain -->
+    </classes>
+  </test> <!-- Rediff-Test-Edge(failed) -->
+  <test thread-count="5" name="Rediff-Test-Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.selenium.mainTest.TestMain">
+        <methods>
+          <include name="tearDown"/>
+          <include name="radiff"/>
+          <include name="flushReport"/>
+          <include name="getResult"/>
+          <include name="testDataRead"/>
+          <include name="startReporter"/>
+          <include name="driverConfig"/>
+        </methods>
+      </class> <!-- com.selenium.mainTest.TestMain -->
+    </classes>
+  </test> <!-- Rediff-Test-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

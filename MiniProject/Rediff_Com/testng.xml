@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Rediff-Test-Edge">
+  <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.selenium.mainTest.TestMain"/>
+    </classes>
+  </test> <!-- Test -->
+     <test name="Rediff-Test-Chrome">  
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.selenium.mainTest.TestMain"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

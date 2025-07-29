@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-07T15:23:30 IST" name="Suite" finished-at="2025-07-07T15:24:30 IST" duration-ms="59991">
+    <groups>
+    </groups>
+    <test started-at="2025-07-07T15:23:30 IST" name="edgetest" finished-at="2025-07-07T15:24:02 IST" duration-ms="31671">
+      <class name="com.selenium.tests.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:23:30 IST" name="startReporter" finished-at="2025-07-07T15:23:31 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:23:31 IST" name="driverConfig" finished-at="2025-07-07T15:23:37 IST" duration-ms="5994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="searchNavigation()[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:23:37 IST" name="searchNavigation" finished-at="2025-07-07T15:23:58 IST" duration-ms="20805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNavigation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:23:58 IST" name="getResult" finished-at="2025-07-07T15:23:58 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchNavigation status=SUCCESS method=TestMain.searchNavigation()[pri:0, instance:com.selenium.tests.TestMain@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:23:58 IST" name="tearDown" finished-at="2025-07-07T15:24:02 IST" duration-ms="4007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.tests.TestMain@43bc63a3]" started-at="2025-07-07T15:24:02 IST" name="flushReport" finished-at="2025-07-07T15:24:02 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.selenium.tests.TestMain -->
+    </test> <!-- edgetest -->
+    <test started-at="2025-07-07T15:24:02 IST" name="chrometest" finished-at="2025-07-07T15:24:30 IST" duration-ms="28274">
+      <class name="com.selenium.tests.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:02 IST" name="startReporter" finished-at="2025-07-07T15:24:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:02 IST" name="driverConfig" finished-at="2025-07-07T15:24:07 IST" duration-ms="4613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="searchNavigation()[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:07 IST" name="searchNavigation" finished-at="2025-07-07T15:24:26 IST" duration-ms="19633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNavigation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:26 IST" name="getResult" finished-at="2025-07-07T15:24:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchNavigation status=SUCCESS method=TestMain.searchNavigation()[pri:0, instance:com.selenium.tests.TestMain@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:26 IST" name="tearDown" finished-at="2025-07-07T15:24:30 IST" duration-ms="3916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.tests.TestMain@49438269]" started-at="2025-07-07T15:24:30 IST" name="flushReport" finished-at="2025-07-07T15:24:30 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.selenium.tests.TestMain -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>

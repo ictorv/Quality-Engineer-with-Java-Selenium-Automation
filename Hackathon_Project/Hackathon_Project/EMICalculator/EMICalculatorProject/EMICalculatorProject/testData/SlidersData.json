@@ -1,0 +1,22 @@
+{
+	"Home Loan":{
+		"amount": 2500000,
+		"interestRate": 10,
+		"tenure": 20,
+		"validString": "₹24,126"
+	},
+	
+	"Personal Loan":{
+		"amount": 1500000,
+		"interestRate": 11,
+		"tenure": 3,
+		"validString": "₹49,108"
+	},
+	
+	"Car Loan":{
+		"amount": 1500000,
+		"interestRate": 9.5,
+		"tenure": 1,
+		"validString": "₹74,127"
+	}
+}

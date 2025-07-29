@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-16T17:46:28 IST" name="Suite" finished-at="2025-07-16T17:54:38 IST" duration-ms="489335">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-16T17:46:28 IST" name="Edge" finished-at="2025-07-16T17:54:38 IST" duration-ms="489335">
+      <class name="testRunner.TestRun">
+        <test-method is-config="true" signature="cleanReports()[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:46:28 IST" name="cleanReports" finished-at="2025-07-16T17:46:28 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanReports -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:46:29 IST" name="setUpClass" finished-at="2025-07-16T17:46:52 IST" duration-ms="23141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73072745]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:46:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:47:26 IST" duration-ms="34191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cab booking with Excel data for Airport Pickup and Drop"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Airport Cab details in EaseMyTrip Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:47:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:48:01 IST" duration-ms="35281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Cab booking with Excel data for Airport Pickup and Drop"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Airport Cab details in EaseMyTrip Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:48:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:48:36 IST" duration-ms="35129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book Outstation with one-way trip"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Outstation Cab details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:48:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:49:11 IST" duration-ms="34577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book Outstation for round-way trip"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Outstation Cab details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:49:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:49:45 IST" duration-ms="33982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book hourly rental with time, date and SUV filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Hourly Cab details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:49:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:50:31 IST" duration-ms="46080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Selecting city, date and filtering day trips"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Activities on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:50:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:51:27 IST" duration-ms="55704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fetching the hotels available for filterd options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Hotel details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:51:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:52:13 IST" duration-ms="45909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the giftcards by giving Email and Mobile Number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Giftards details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:52:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:52:57 IST" duration-ms="44885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the giftcards by giving Email and Mobile Number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Giftards details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:52:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:53:32 IST" duration-ms="34911" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the giftcards by giving Email and Mobile Number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Giftards details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not navigated to Gift Cards page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not navigated to Gift Cards page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepDefinitions.GiftCardsStepDef.the_user_clicks_on_more_tab_and_selects_gift_card(GiftCardsStepDef.java:44)
+at ✽.the user clicks on More tab and selects GiftCard to test "TC3"(file:///C:/Users/2403771/Selenium-workspace/EaseMyTripDemo/./src/test/resources/features/06_GiftCards.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:53:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T17:54:26 IST" duration-ms="54135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the giftcards by giving Email and Mobile Number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Searching for Giftards details on EaseMyTrip"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:54:26 IST" name="tearDownClass" finished-at="2025-07-16T17:54:38 IST" duration-ms="11351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testRunner.TestRun@389b0789]" started-at="2025-07-16T17:54:38 IST" name="afterSuite" finished-at="2025-07-16T17:54:38 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testRunner.TestRun -->
+    </test> <!-- Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

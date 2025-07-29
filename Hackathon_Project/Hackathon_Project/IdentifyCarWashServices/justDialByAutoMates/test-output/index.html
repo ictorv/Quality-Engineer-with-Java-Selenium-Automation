@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CucumberSuite" class="navigator-link">
+              <span class="suite-name border-failed">CucumberSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CucumberSuite" class="navigator-link ">
+                    <span>C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CucumberSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CucumberSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CucumberSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CucumberSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CucumberSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CucumberSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 2 failed,  3 skipped,  18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods failed suite-CucumberSuite"> (hide)</a> <!-- hide-methods failed suite-CucumberSuite -->
+                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods failed suite-CucumberSuite"> (show)</a> <!-- show-methods failed suite-CucumberSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CucumberSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CucumberSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods skipped suite-CucumberSuite"> (hide)</a> <!-- hide-methods skipped suite-CucumberSuite -->
+                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods skipped suite-CucumberSuite"> (show)</a> <!-- show-methods skipped suite-CucumberSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-CucumberSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-CucumberSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods passed suite-CucumberSuite"> (hide)</a> <!-- hide-methods passed suite-CucumberSuite -->
+                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods passed suite-CucumberSuite"> (show)</a> <!-- show-methods passed suite-CucumberSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CucumberSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 car washing services near me with high ratings and votes&quot;, &quot;Car Wash Services Automat...)">runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register for Free Listing with invalid phone number and capturing the error message&quot;, &quot;Car Wash&quot;)">runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Show top 5 filtered buses between cities and validate travel options per Excel row&quot;, &quot;TC008 - Explo...)">runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 5 mobile data plans using XML input&quot;, &quot;Display Mobile Recharge Plans from XML&quot;)">runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Discover submenus of Gym in Fitness Category&quot;, &quot;Verify Gym/Fitness Submenu Options&quot;)">runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Find categories listed under search terms from JSON&quot;, &quot;Popular Categories Search&quot;)">runScenario("Find categories listed under search terms from JSON", "Popular Categories Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Show top 5 filtered buses between cities and validate travel options per Excel row&quot;, &quot;TC008 - Explo...)">runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Find categories listed under search terms from JSON&quot;, &quot;Popular Categories Search&quot;)">runScenario("Find categories listed under search terms from JSON", "Popular Categories Search")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Discover submenus of Gym in Fitness Category&quot;, &quot;Verify Gym/Fitness Submenu Options&quot;)">runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Register for Free Listing with invalid phone number and capturing the error message&quot;, &quot;Car Wash&quot;)">runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display top 5 car washing services near me with high ratings and votes&quot;, &quot;Car Wash Services Automat...)">runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 5 mobile data plans using XML input&quot;, &quot;Display Mobile Recharge Plans from XML&quot;)">runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CucumberSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CucumberSuite" class="panel CucumberSuite">
+          <div class="suite-CucumberSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">
+                  </a> <!-- runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery","Top 5 Restaurants")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[starts-with(@class, &apos;input_search_result&apos;)]//li[2]/a&quot;}
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a5c14eea6c79dac3dab36c5c25753322, findElement {using=xpath, value=//div[starts-with(@class, &apos;input_search_result&apos;)]//li[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54750}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403758\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54750/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5c14eea6c79dac3dab36c5c25753322
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.click(Unknown Source)
+	at pages.HomePage.clickLocationFirstDropDown(HomePage.java:87)
+	at stepsDefinitions.TC005_steps.searchRestaurantsNear(TC005_steps.java:52)
+	at ✽.I search for &quot;Restaurants&quot; near &quot;1&quot;(file:///C:/eclipse%20workspace/Identify-Car-Wash-Services/src/test/resources/features/TC005.feature:5)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">
+                  </a> <!-- runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display the top 6 theaters showing the top movie with filters from Excel","Display Theaters Showing Top Movies")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utilities.WaitUtil.waitForOneElement(WaitUtil.java:14)
+	at pages.MoviesPage.waitUntilHeadingTagAppears(MoviesPage.java:60)
+	at stepsDefinitions.TC009_steps.verifyMoviesPageVisible(TC009_steps.java:53)
+	at ✽.I should see the Movies page(file:///C:/eclipse%20workspace/Identify-Car-Wash-Services/src/test/resources/features/TC009.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]&quot;}
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c94c3416d127d49cb7e2d223f076d7e0, findElement {using=xpath, value=//div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55540}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403758\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55540/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c94c3416d127d49cb7e2d223f076d7e0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 4 more
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CucumberSuite-class-failed -->
+          <div class="suite-CucumberSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">
+                  </a> <!-- runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 hostels near me which are top rated and JD Verified","Find Top 5 Hostels to Stay")</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy43.get(Unknown Source)
+	at pages.SearchResultPageHostels.getHotelResultList(SearchResultPageHostels.java:48)
+	at stepsDefinitions.TC004_steps.verifyHostelResultsVisible(TC004_steps.java:64)
+	at ✽.I should see a list of hostels(file:///C:/eclipse%20workspace/Identify-Car-Wash-Services/src/test/resources/features/TC004.feature:6)
+... Removed 2 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">
+                  </a> <!-- runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery","Top 5 Restaurants")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[starts-with(@class, &apos;input_search_result&apos;)]//li[2]/a&quot;}
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b568659e453377bc3c3a820edc5bdbbf, findElement {using=xpath, value=//div[starts-with(@class, &apos;input_search_result&apos;)]//li[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54609}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403758\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54609/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b568659e453377bc3c3a820edc5bdbbf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.click(Unknown Source)
+	at pages.HomePage.clickLocationFirstDropDown(HomePage.java:87)
+	at stepsDefinitions.TC005_steps.searchRestaurantsNear(TC005_steps.java:52)
+	at ✽.I search for &quot;Restaurants&quot; near &quot;1&quot;(file:///C:/eclipse%20workspace/Identify-Car-Wash-Services/src/test/resources/features/TC005.feature:5)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">
+                  </a> <!-- runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display the top 6 theaters showing the top movie with filters from Excel","Display Theaters Showing Top Movies")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utilities.WaitUtil.waitForOneElement(WaitUtil.java:14)
+	at pages.MoviesPage.waitUntilHeadingTagAppears(MoviesPage.java:60)
+	at stepsDefinitions.TC009_steps.verifyMoviesPageVisible(TC009_steps.java:53)
+	at ✽.I should see the Movies page(file:///C:/eclipse%20workspace/Identify-Car-Wash-Services/src/test/resources/features/TC009.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]&quot;}
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0dae2ba5007cd052b213cfd3a80b9105, findElement {using=xpath, value=//div[contains(@class, &apos;jsx-158093aea8ca66f1&apos;) and contains(@class, &apos;movies_heading&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55385}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\2403758\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0dae2ba5007cd052b213cfd3a80b9105
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy42.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 4 more
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CucumberSuite-class-skipped -->
+          <div class="suite-CucumberSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 car washing services near me with high ratings and votes&quot;, &quot;Car Wash Services Automat...)">
+                  </a> <!-- runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 car washing services near me with high ratings and votes","Car Wash Services Automation Workflows (Data-Driven via Apache POI)")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register for Free Listing with invalid phone number and capturing the error message&quot;, &quot;Car Wash&quot;)">
+                  </a> <!-- runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register for Free Listing with invalid phone number and capturing the error message","Car Wash")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Show top 5 filtered buses between cities and validate travel options per Excel row&quot;, &quot;TC008 - Explo...)">
+                  </a> <!-- runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Show top 5 filtered buses between cities and validate travel options per Excel row","TC008 - Explore City-to-City Bus Options and Apply Travel Filters")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">
+                  </a> <!-- runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 hostels near me which are top rated and JD Verified","Find Top 5 Hostels to Stay")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">
+                  </a> <!-- runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display details of top tourist spots using Excel row data","Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display the top 5 mobile data plans using XML input&quot;, &quot;Display Mobile Recharge Plans from XML&quot;)">
+                  </a> <!-- runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display the top 5 mobile data plans using XML input","Display Mobile Recharge Plans from XML")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display the top 6 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">
+                  </a> <!-- runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display the top 6 theaters showing the top movie with filters from Excel","Display Theaters Showing Top Movies")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Discover submenus of Gym in Fitness Category&quot;, &quot;Verify Gym/Fitness Submenu Options&quot;)">
+                  </a> <!-- runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Discover submenus of Gym in Fitness Category","Verify Gym/Fitness Submenu Options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Find categories listed under search terms from JSON&quot;, &quot;Popular Categories Search&quot;)">
+                  </a> <!-- runScenario("Find categories listed under search terms from JSON", "Popular Categories Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Find categories listed under search terms from JSON","Popular Categories Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery&quot;...)">
+                  </a> <!-- runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery","Top 5 Restaurants")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Show top 5 filtered buses between cities and validate travel options per Excel row&quot;, &quot;TC008 - Explo...)">
+                  </a> <!-- runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Show top 5 filtered buses between cities and validate travel options per Excel row","TC008 - Explore City-to-City Bus Options and Apply Travel Filters")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Find categories listed under search terms from JSON&quot;, &quot;Popular Categories Search&quot;)">
+                  </a> <!-- runScenario("Find categories listed under search terms from JSON", "Popular Categories Search") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Find categories listed under search terms from JSON","Popular Categories Search")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Discover submenus of Gym in Fitness Category&quot;, &quot;Verify Gym/Fitness Submenu Options&quot;)">
+                  </a> <!-- runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Discover submenus of Gym in Fitness Category","Verify Gym/Fitness Submenu Options")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Register for Free Listing with invalid phone number and capturing the error message&quot;, &quot;Car Wash&quot;)">
+                  </a> <!-- runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Register for Free Listing with invalid phone number and capturing the error message","Car Wash")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 hostels near me which are top rated and JD Verified&quot;, &quot;Find Top 5 Hostels to Stay&quot;)">
+                  </a> <!-- runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 hostels near me which are top rated and JD Verified","Find Top 5 Hostels to Stay")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">
+                  </a> <!-- runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display details of top tourist spots using Excel row data","Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display top 5 car washing services near me with high ratings and votes&quot;, &quot;Car Wash Services Automat...)">
+                  </a> <!-- runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display top 5 car washing services near me with high ratings and votes","Car Wash Services Automation Workflows (Data-Driven via Apache POI)")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display the top 5 mobile data plans using XML input&quot;, &quot;Display Mobile Recharge Plans from XML&quot;)">
+                  </a> <!-- runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display the top 5 mobile data plans using XML input","Display Mobile Recharge Plans from XML")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CucumberSuite-class-passed -->
+        </div> <!-- panel CucumberSuite -->
+        <div panel-name="test-xml-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;CucumberSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.RetryListerner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+&lt;/suite&gt; &lt;!-- CucumberSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CucumberSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CucumberSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CucumberSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CucumberSuite');
+function tableData_CucumberSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'testRunner.TestRunner')
+data.setCell(0, 3, 50056);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testRunner.TestRunner')
+data.setCell(1, 3, 35578);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'testRunner.TestRunner')
+data.setCell(2, 3, 34960);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'testRunner.TestRunner')
+data.setCell(3, 3, 29289);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'testRunner.TestRunner')
+data.setCell(4, 3, 26348);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'testRunner.TestRunner')
+data.setCell(5, 3, 25887);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'testRunner.TestRunner')
+data.setCell(6, 3, 25514);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'testRunner.TestRunner')
+data.setCell(7, 3, 25100);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'testRunner.TestRunner')
+data.setCell(8, 3, 24538);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'testRunner.TestRunner')
+data.setCell(9, 3, 24418);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'testRunner.TestRunner')
+data.setCell(10, 3, 22458);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'testRunner.TestRunner')
+data.setCell(11, 3, 22307);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'testRunner.TestRunner')
+data.setCell(12, 3, 21875);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'testRunner.TestRunner')
+data.setCell(13, 3, 21699);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'testRunner.TestRunner')
+data.setCell(14, 3, 21327);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'testRunner.TestRunner')
+data.setCell(15, 3, 21273);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'testRunner.TestRunner')
+data.setCell(16, 3, 20367);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'testRunner.TestRunner')
+data.setCell(17, 3, 20150);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'testRunner.TestRunner')
+data.setCell(18, 3, 19284);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'testRunner.TestRunner')
+data.setCell(19, 3, 17908);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'testRunner.TestRunner')
+data.setCell(20, 3, 17726);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'testRunner.TestRunner')
+data.setCell(21, 3, 13363);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'testRunner.TestRunner')
+data.setCell(22, 3, 11498);
+window.suiteTableData['CucumberSuite']= { tableData: data, tableDiv: 'times-div-CucumberSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-CucumberSuite">
+              </div> <!-- times-div-CucumberSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CucumberSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CucumberSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testRunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@28e12bc5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...)</span>
+                <span class="method-start">741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash")</span>
+                <span class="method-start">23058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options")</span>
+                <span class="method-start">36424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</span>
+                <span class="method-start">62313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</span>
+                <span class="method-start">112375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</span>
+                <span class="method-start">141667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Find categories listed under search terms from JSON", "Popular Categories Search")</span>
+                <span class="method-start">162999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</span>
+                <span class="method-start">180909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...)</span>
+                <span class="method-start">202184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</span>
+                <span class="method-start">226607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML")</span>
+                <span class="method-start">246759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">269223 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@e00f822)</span>
+                <span class="method-start">269377 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 car washing services near me with high ratings and votes", "Car Wash Services Automat...)</span>
+                <span class="method-start">269694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Register for Free Listing with invalid phone number and capturing the error message", "Car Wash")</span>
+                <span class="method-start">291571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Discover submenus of Gym in Fitness Category", "Verify Gym/Fitness Submenu Options")</span>
+                <span class="method-start">303071 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 hostels near me which are top rated and JD Verified", "Find Top 5 Hostels to Stay")</span>
+                <span class="method-start">329422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</span>
+                <span class="method-start">349791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"...)</span>
+                <span class="method-start">375308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Find categories listed under search terms from JSON", "Popular Categories Search")</span>
+                <span class="method-start">400410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</span>
+                <span class="method-start">418138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Show top 5 filtered buses between cities and validate travel options per Excel row", "TC008 - Explo...)</span>
+                <span class="method-start">439839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</span>
+                <span class="method-start">464379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Display the top 6 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</span>
+                <span class="method-start">499341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display the top 5 mobile data plans using XML input", "Display Mobile Recharge Plans from XML")</span>
+                <span class="method-start">534922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">554208 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

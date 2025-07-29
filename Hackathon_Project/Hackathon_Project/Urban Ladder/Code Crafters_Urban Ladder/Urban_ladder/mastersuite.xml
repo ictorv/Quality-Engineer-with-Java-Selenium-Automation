@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.urban.testfile.TC_001_BookShelves" />
+			<class name="com.urban.testfile.TC_002_AddtoCart" />
+			<class name="com.urban.testfile.TC_003_Cities" />
+			<class name="com.urban.testfile.TC_004_Login" />
+			<class name="com.urban.testfile.TC_005_SocialMedia" />
+			<class name="com.urban.testfile.TC_006_AutoSuggestion" />
+			<class name="com.urban.testfile.TC_007_HelpPage" />
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T10:05:33 IST" name="OrangeHRM" finished-at="2025-07-04T10:06:16 IST" duration-ms="42399">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T10:05:33 IST" name="ChromeDriver" finished-at="2025-07-04T10:05:55 IST" duration-ms="21785">
+      <class name="com.xlreading.OrangeHRMJobTitleTest">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:33 IST" name="startReporter" finished-at="2025-07-04T10:05:34 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:34 IST" name="setup" finished-at="2025-07-04T10:05:44 IST" duration-ms="10226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddJobTitle()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:44 IST" name="testAddJobTitle" finished-at="2025-07-04T10:05:55 IST" duration-ms="10891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddJobTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:55 IST" name="getResult" finished-at="2025-07-04T10:05:55 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddJobTitle status=SUCCESS method=OrangeHRMJobTitleTest.testAddJobTitle()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:55 IST" name="tearDown" finished-at="2025-07-04T10:05:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@6771beb3]" started-at="2025-07-04T10:05:55 IST" name="flushReport" finished-at="2025-07-04T10:05:55 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.xlreading.OrangeHRMJobTitleTest -->
+    </test> <!-- ChromeDriver -->
+    <test started-at="2025-07-04T10:05:55 IST" name="EdgeDriver" finished-at="2025-07-04T10:06:16 IST" duration-ms="20580">
+      <class name="com.xlreading.OrangeHRMJobTitleTest">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:05:55 IST" name="startReporter" finished-at="2025-07-04T10:05:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:05:55 IST" name="setup" finished-at="2025-07-04T10:06:05 IST" duration-ms="9734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddJobTitle()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:06:05 IST" name="testAddJobTitle" finished-at="2025-07-04T10:06:16 IST" duration-ms="10791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddJobTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:06:16 IST" name="getResult" finished-at="2025-07-04T10:06:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddJobTitle status=SUCCESS method=OrangeHRMJobTitleTest.testAddJobTitle()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:06:16 IST" name="tearDown" finished-at="2025-07-04T10:06:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.xlreading.OrangeHRMJobTitleTest@1e800aaa]" started-at="2025-07-04T10:06:16 IST" name="flushReport" finished-at="2025-07-04T10:06:16 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.xlreading.OrangeHRMJobTitleTest -->
+    </test> <!-- EdgeDriver -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>

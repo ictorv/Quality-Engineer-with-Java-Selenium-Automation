@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+	<!-- Test -->
+
+	<test name="Test on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.facebook.tests.FacebookSignup_Test" />
+		</classes>
+	</test>
+
+	<test name="Test on Edge">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.facebook.tests.FacebookSignup_Test" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
+

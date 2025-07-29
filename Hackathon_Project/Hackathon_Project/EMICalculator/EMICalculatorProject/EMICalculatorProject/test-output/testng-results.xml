@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-16T14:29:14 IST" name="Suite" finished-at="2025-07-16T14:31:45 IST" duration-ms="150756">
+    <groups>
+    </groups>
+    <test started-at="2025-07-16T14:29:14 IST" name="ChromeDriver" finished-at="2025-07-16T14:31:45 IST" duration-ms="150756">
+      <class name="testCases.TestMain">
+        <test-method is-config="true" signature="testReadData()[pri:0, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:29:14 IST" name="testReadData" finished-at="2025-07-16T14:29:14 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadData -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:29:14 IST" name="setup" finished-at="2025-07-16T14:30:00 IST" duration-ms="45496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loadLandingPage()[pri:1, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:00 IST" name="loadLandingPage" finished-at="2025-07-16T14:30:00 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLandingPage -->
+        <test-method signature="verifyHomeLoan()[pri:2, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:00 IST" name="verifyHomeLoan" finished-at="2025-07-16T14:30:03 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeLoan -->
+        <test-method signature="verifyPersonalLoan()[pri:3, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:03 IST" name="verifyPersonalLoan" finished-at="2025-07-16T14:30:05 IST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalLoan -->
+        <test-method signature="verifyCarLoan()[pri:4, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:05 IST" name="verifyCarLoan" finished-at="2025-07-16T14:30:47 IST" duration-ms="41593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarLoan -->
+        <test-method signature="verifyHomeLoanEMI()[pri:5, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:47 IST" name="verifyHomeLoanEMI" finished-at="2025-07-16T14:30:49 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeLoanEMI -->
+        <test-method signature="retrieveYearTable()[pri:6, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:30:49 IST" name="retrieveYearTable" finished-at="2025-07-16T14:31:32 IST" depends-on-methods="testCases.TestMain.verifyHomeLoan" duration-ms="43313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveYearTable -->
+        <test-method signature="checkEMICalculatorUI()[pri:7, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:31:32 IST" name="checkEMICalculatorUI" finished-at="2025-07-16T14:31:34 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEMICalculatorUI -->
+        <test-method signature="checkLoanAmountUI()[pri:8, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:31:34 IST" name="checkLoanAmountUI" finished-at="2025-07-16T14:31:37 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanAmountUI -->
+        <test-method signature="checkLoanTenureUI()[pri:9, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:31:37 IST" name="checkLoanTenureUI" finished-at="2025-07-16T14:31:38 IST" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoanTenureUI -->
+        <test-method signature="checkInterestRateUI()[pri:10, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:31:38 IST" name="checkInterestRateUI" finished-at="2025-07-16T14:31:40 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInterestRateUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestMain@16612a51]" started-at="2025-07-16T14:31:40 IST" name="tearDown" finished-at="2025-07-16T14:31:45 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestMain -->
+    </test> <!-- ChromeDriver -->
+  </suite> <!-- Suite -->
+</testng-results>

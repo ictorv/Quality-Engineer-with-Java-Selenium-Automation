@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2403763\Selenium\2403763\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 4 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="loginToWebsite">loginToWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="loginToWebsite">loginToWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="base.DeletingSkillSet" class="method navigator-link" hash-for-method="qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">base.DeletingSkillSet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab07d48e875fe60f15d8282407c17029, findElement {using=xpath, value=//button[@type=&apos;submit&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52811/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab07d48e875fe60f15d8282407c17029
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at pages.JobPage.addAndDeleteElement(JobPage.java:95)
+	at base.DeletingSkillSet.jobCategoriesOperation(DeletingSkillSet.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Job operation failed!
+	at base.DeletingSkillSet.jobCategoriesOperation(DeletingSkillSet.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab07d48e875fe60f15d8282407c17029, isElementDisplayed {id=f.157682EBE090B3829AD1FA8C38FCAD5C.d.F9148D5DC22EB4874FCDEA5E4D14039A.e.843}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52811}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52811/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab07d48e875fe60f15d8282407c17029)] -&gt; class name: oxd-select-option]
+Session ID: ab07d48e875fe60f15d8282407c17029
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264)
+	at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at utils.WaitUtil.waitForMultipleElement(WaitUtil.java:34)
+	at pages.OrganizationPage.addAndDeleteElement(OrganizationPage.java:104)
+	at base.DeletingSkillSet.organizationLocationOperation(DeletingSkillSet.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53140}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\2403763\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53140/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fccfcbf6af5f221a24e56a9611b88861
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitUtil.waitForMultipleElement(WaitUtil.java:34)
+	at pages.QualificationPage.addAndDeleteElement(QualificationPage.java:99)
+	at base.DeletingSkillSet.qualificationSkillsOperation(DeletingSkillSet.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">base.DeletingSkillSet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">jobCategoriesOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToWebsite">
+                  </a> <!-- loginToWebsite -->
+                  <span class="method-name">loginToWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToWebsite">
+                  </a> <!-- loginToWebsite -->
+                  <span class="method-name">loginToWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">organizationLocationOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,NetherLands-HQ,Albania,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,SwitzerLand-HQ,Canada,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)">
+                  </a> <!-- qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo) -->
+                  <span class="method-name">qualificationSkillsOperation</span>
+                  <span class="parameters">(Test Engineer,Amsterdam-HQ,India,Testing Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2403763\Selenium\2403763\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.DeletingSkillSet&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.DeletingSkillSet&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'qualificationSkillsOperation')
+data.setCell(0, 2, 'base.DeletingSkillSet')
+data.setCell(0, 3, 24820);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'organizationLocationOperation')
+data.setCell(1, 2, 'base.DeletingSkillSet')
+data.setCell(1, 3, 17044);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'organizationLocationOperation')
+data.setCell(2, 2, 'base.DeletingSkillSet')
+data.setCell(2, 3, 16901);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'organizationLocationOperation')
+data.setCell(3, 2, 'base.DeletingSkillSet')
+data.setCell(3, 3, 16649);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'organizationLocationOperation')
+data.setCell(4, 2, 'base.DeletingSkillSet')
+data.setCell(4, 3, 16140);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'jobCategoriesOperation')
+data.setCell(5, 2, 'base.DeletingSkillSet')
+data.setCell(5, 3, 15901);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'jobCategoriesOperation')
+data.setCell(6, 2, 'base.DeletingSkillSet')
+data.setCell(6, 3, 15874);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'organizationLocationOperation')
+data.setCell(7, 2, 'base.DeletingSkillSet')
+data.setCell(7, 3, 15218);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'qualificationSkillsOperation')
+data.setCell(8, 2, 'base.DeletingSkillSet')
+data.setCell(8, 3, 15152);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'qualificationSkillsOperation')
+data.setCell(9, 2, 'base.DeletingSkillSet')
+data.setCell(9, 3, 14351);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'qualificationSkillsOperation')
+data.setCell(10, 2, 'base.DeletingSkillSet')
+data.setCell(10, 3, 14321);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'jobCategoriesOperation')
+data.setCell(11, 2, 'base.DeletingSkillSet')
+data.setCell(11, 3, 12709);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'jobCategoriesOperation')
+data.setCell(12, 2, 'base.DeletingSkillSet')
+data.setCell(12, 3, 8983);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'jobCategoriesOperation')
+data.setCell(13, 2, 'base.DeletingSkillSet')
+data.setCell(13, 3, 8375);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'qualificationSkillsOperation')
+data.setCell(14, 2, 'base.DeletingSkillSet')
+data.setCell(14, 3, 7396);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'jobCategoriesOperation')
+data.setCell(15, 2, 'base.DeletingSkillSet')
+data.setCell(15, 3, 7159);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'qualificationSkillsOperation')
+data.setCell(16, 2, 'base.DeletingSkillSet')
+data.setCell(16, 3, 7076);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'organizationLocationOperation')
+data.setCell(17, 2, 'base.DeletingSkillSet')
+data.setCell(17, 3, 4246);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginToWebsite')
+data.setCell(18, 2, 'base.DeletingSkillSet')
+data.setCell(18, 3, 2281);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginToWebsite')
+data.setCell(19, 2, 'base.DeletingSkillSet')
+data.setCell(19, 3, 1831);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">base.DeletingSkillSet</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToWebsite</span>
+                <span class="method-start">12373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">14452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">21724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">37599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">46713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">62855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">67227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">84390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">91467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">106620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logoutOfWebsite</span>
+                <span class="method-start">120943 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">writeIntoExcel</span>
+                <span class="method-start">126419 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser(edge)</span>
+                <span class="method-start">127386 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginToWebsite</span>
+                <span class="method-start">136274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobCategoriesOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">138660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">jobCategoriesOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">154562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">jobCategoriesOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">167413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organizationLocationOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">175882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organizationLocationOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">192532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">organizationLocationOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">207750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, Amsterdam-HQ, India, Testing Demo)</span>
+                <span class="method-start">224738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, NetherLands-HQ, Albania, Testing Demo)</span>
+                <span class="method-start">239090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qualificationSkillsOperation(Test Engineer, SwitzerLand-HQ, Canada, Testing Demo)</span>
+                <span class="method-start">264023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logoutOfWebsite</span>
+                <span class="method-start">271420 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">writeIntoExcel</span>
+                <span class="method-start">278492 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

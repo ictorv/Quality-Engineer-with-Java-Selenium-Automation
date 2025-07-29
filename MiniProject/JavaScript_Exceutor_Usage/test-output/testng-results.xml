@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T15:22:37 IST" name="Suite" finished-at="2025-06-19T15:24:45 IST" duration-ms="128052">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T15:22:37 IST" name="demoQATestEdge" finished-at="2025-06-19T15:23:44 IST" duration-ms="66900">
+      <class name="testScenario.MainTest">
+        <test-method is-config="true" signature="initializeBrowserDriver(java.lang.String,org.testng.ITestContext)[pri:0, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:22:38 IST" name="initializeBrowserDriver" finished-at="2025-06-19T15:23:25 IST" duration-ms="46969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6ab057]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserDriver -->
+        <test-method signature="testhandleJavaScriptAlert()[pri:1, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:25 IST" name="testhandleJavaScriptAlert" finished-at="2025-06-19T15:23:26 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhandleJavaScriptAlert -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:28 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:23:30 IST" duration-ms="2282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cristiano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ronaldo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cristiano@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8122537245]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5-June-2004]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SaudiArabia]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:30 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:23:32 IST" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[viratkohli@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25-May-2020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Panipat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:33 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:23:34 IST" duration-ms="1747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ratan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ratantata@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3-March-2009]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Reading]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Panipat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:35 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:23:37 IST" duration-ms="1960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ShahRukh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shahrukhkhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6380026021]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[29-June-2008]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Rajasthan]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:37 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:23:39 IST" duration-ms="2117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A.R.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arrahman@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14-February-2024]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method is-config="true" signature="closeBrowserSession()[pri:0, instance:testScenario.MainTest@489115ef]" started-at="2025-06-19T15:23:39 IST" name="closeBrowserSession" finished-at="2025-06-19T15:23:44 IST" duration-ms="5075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- testScenario.MainTest -->
+    </test> <!-- demoQATestEdge -->
+    <test started-at="2025-06-19T15:23:45 IST" name="demoQATestChrome" finished-at="2025-06-19T15:24:45 IST" duration-ms="60625">
+      <class name="testScenario.MainTest">
+        <test-method is-config="true" signature="initializeBrowserDriver(java.lang.String,org.testng.ITestContext)[pri:0, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:23:45 IST" name="initializeBrowserDriver" finished-at="2025-06-19T15:24:31 IST" duration-ms="46480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ce4498f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowserDriver -->
+        <test-method signature="testhandleJavaScriptAlert()[pri:1, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:31 IST" name="testhandleJavaScriptAlert" finished-at="2025-06-19T15:24:32 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhandleJavaScriptAlert -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:32 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:24:34 IST" duration-ms="1957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cristiano]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ronaldo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cristiano@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8122537245]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5-June-2004]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SaudiArabia]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:34 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:24:36 IST" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[viratkohli@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[25-May-2020]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Panipat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:36 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:24:38 IST" duration-ms="1804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ratan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ratantata@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3-March-2009]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Reading]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Panipat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:39 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:24:40 IST" duration-ms="1888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ShahRukh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shahrukhkhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6380026021]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[29-June-2008]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Rajasthan]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Jaipur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method signature="testFormSubmissionWithJSE(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:41 IST" name="testFormSubmissionWithJSE" data-provider="studentData" finished-at="2025-06-19T15:24:43 IST" duration-ms="1969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A.R.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arrahman@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9898878767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14-February-2024]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Agra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmissionWithJSE -->
+        <test-method is-config="true" signature="closeBrowserSession()[pri:0, instance:testScenario.MainTest@7d8704ef]" started-at="2025-06-19T15:24:43 IST" name="closeBrowserSession" finished-at="2025-06-19T15:24:45 IST" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- testScenario.MainTest -->
+    </test> <!-- demoQATestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

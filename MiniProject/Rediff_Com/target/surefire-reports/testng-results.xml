@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T19:32:26 IST" name="Suite" finished-at="2025-06-20T19:33:19 IST" duration-ms="53348">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T19:32:26 IST" name="Rediff-Test-Edge" finished-at="2025-06-20T19:32:55 IST" duration-ms="29506">
+      <class name="com.selenium.mainTest.TestMain">
+        <test-method is-config="true" signature="startReporter(java.lang.String)[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:26 IST" name="startReporter" finished-at="2025-06-20T19:32:26 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="testDataRead()[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:26 IST" name="testDataRead" finished-at="2025-06-20T19:32:27 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataRead -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:27 IST" name="driverConfig" finished-at="2025-06-20T19:32:34 IST" duration-ms="6969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="radiff()[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:34 IST" name="radiff" finished-at="2025-06-20T19:32:50 IST" duration-ms="16435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiff -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:50 IST" name="getResult" finished-at="2025-06-20T19:32:50 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radiff status=SUCCESS method=TestMain.radiff()[pri:0, instance:com.selenium.mainTest.TestMain@131774fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:50 IST" name="tearDown" finished-at="2025-06-20T19:32:55 IST" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.mainTest.TestMain@131774fe]" started-at="2025-06-20T19:32:55 IST" name="flushReport" finished-at="2025-06-20T19:32:55 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.selenium.mainTest.TestMain -->
+    </test> <!-- Rediff-Test-Edge -->
+    <test started-at="2025-06-20T19:32:55 IST" name="Rediff-Test-Chrome" finished-at="2025-06-20T19:33:19 IST" duration-ms="23783">
+      <class name="com.selenium.mainTest.TestMain">
+        <test-method is-config="true" signature="startReporter(java.lang.String)[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:32:55 IST" name="startReporter" finished-at="2025-06-20T19:32:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="testDataRead()[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:32:55 IST" name="testDataRead" finished-at="2025-06-20T19:32:55 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataRead -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:32:55 IST" name="driverConfig" finished-at="2025-06-20T19:33:02 IST" duration-ms="6188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="radiff()[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:33:02 IST" name="radiff" finished-at="2025-06-20T19:33:16 IST" duration-ms="14292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiff -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:33:16 IST" name="getResult" finished-at="2025-06-20T19:33:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=radiff status=SUCCESS method=TestMain.radiff()[pri:0, instance:com.selenium.mainTest.TestMain@368f2016] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:33:16 IST" name="tearDown" finished-at="2025-06-20T19:33:19 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.selenium.mainTest.TestMain@368f2016]" started-at="2025-06-20T19:33:19 IST" name="flushReport" finished-at="2025-06-20T19:33:19 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.selenium.mainTest.TestMain -->
+    </test> <!-- Rediff-Test-Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

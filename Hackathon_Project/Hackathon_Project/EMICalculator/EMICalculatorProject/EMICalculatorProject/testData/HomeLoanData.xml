@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomeLoanData>
+	<HomeLoan>
+		<Price>6000000</Price>
+		<DownPayment>30</DownPayment>
+		<Insurance>1000000</Insurance>
+		<Interest>9.5</Interest>
+		<LoanFees>25</LoanFees>
+		<StartDate>Jul 2025</StartDate>
+		<HomeInsurance>5</HomeInsurance>
+		<Maintenance>3000</Maintenance>
+		<ConfirmMsg>₹ 77,221</ConfirmMsg>
+	</HomeLoan>
+</HomeLoanData>

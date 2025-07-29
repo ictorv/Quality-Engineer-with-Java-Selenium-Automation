@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-07T18:39:09 IST" name="FlipkartCrossBrowserSuite" finished-at="2025-07-07T18:40:51 IST" duration-ms="102349">
+    <groups>
+    </groups>
+    <test started-at="2025-07-07T18:39:09 IST" name="FlipkartTest - Chrome" finished-at="2025-07-07T18:40:03 IST" duration-ms="54365">
+      <class name="testScenario.FlipKartTest">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:09 IST" name="startReporter" finished-at="2025-07-07T18:39:09 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:09 IST" name="driverConfig" finished-at="2025-07-07T18:39:18 IST" duration-ms="8369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method is-config="true" signature="readTestData()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:18 IST" name="readTestData" finished-at="2025-07-07T18:39:18 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTestData -->
+        <test-method signature="flipkartCartValidationTest()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:18 IST" name="flipkartCartValidationTest" finished-at="2025-07-07T18:39:59 IST" duration-ms="40876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartCartValidationTest -->
+        <test-method is-config="true" signature="writeTestData()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:59 IST" name="writeTestData" finished-at="2025-07-07T18:39:59 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTestData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:39:59 IST" name="tearDown" finished-at="2025-07-07T18:40:03 IST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testScenario.FlipKartTest@4116aac9]" started-at="2025-07-07T18:40:03 IST" name="flushReport" finished-at="2025-07-07T18:40:03 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testScenario.FlipKartTest -->
+    </test> <!-- FlipkartTest - Chrome -->
+    <test started-at="2025-07-07T18:40:03 IST" name="FlipkartTest - Edge" finished-at="2025-07-07T18:40:51 IST" duration-ms="47966">
+      <class name="testScenario.FlipKartTest">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:03 IST" name="startReporter" finished-at="2025-07-07T18:40:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:03 IST" name="driverConfig" finished-at="2025-07-07T18:40:09 IST" duration-ms="5121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method is-config="true" signature="readTestData()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:09 IST" name="readTestData" finished-at="2025-07-07T18:40:09 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTestData -->
+        <test-method signature="flipkartCartValidationTest()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:09 IST" name="flipkartCartValidationTest" finished-at="2025-07-07T18:40:47 IST" duration-ms="38700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartCartValidationTest -->
+        <test-method is-config="true" signature="writeTestData()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:47 IST" name="writeTestData" finished-at="2025-07-07T18:40:48 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeTestData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:48 IST" name="tearDown" finished-at="2025-07-07T18:40:51 IST" duration-ms="3802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testScenario.FlipKartTest@4009e306]" started-at="2025-07-07T18:40:51 IST" name="flushReport" finished-at="2025-07-07T18:40:51 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testScenario.FlipKartTest -->
+    </test> <!-- FlipkartTest - Edge -->
+  </suite> <!-- FlipkartCrossBrowserSuite -->
+</testng-results>

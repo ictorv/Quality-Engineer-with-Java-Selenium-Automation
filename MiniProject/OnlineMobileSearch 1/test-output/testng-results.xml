@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-08T13:28:58 IST" name="Suite" finished-at="2025-07-08T13:29:43 IST" duration-ms="45005">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T13:28:58 IST" name="Test on Chrome" finished-at="2025-07-08T13:29:23 IST" duration-ms="24106">
+      <class name="test.Scenario.TestNG">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:28:58 IST" name="startReporter" finished-at="2025-07-08T13:29:00 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:00 IST" name="driverInstantiation" finished-at="2025-07-08T13:29:10 IST" duration-ms="10094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:10 IST" name="navigatingToHomePage" finished-at="2025-07-08T13:29:15 IST" duration-ms="5320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:15 IST" name="getResult" finished-at="2025-07-08T13:29:15 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNG.navigatingToHomePage()[pri:1, instance:test.Scenario.TestNG@1fa121e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="navigatingToResult()[pri:2, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:15 IST" name="navigatingToResult" finished-at="2025-07-08T13:29:16 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:16 IST" name="getResult" finished-at="2025-07-08T13:29:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToResult status=SUCCESS method=TestNG.navigatingToResult()[pri:2, instance:test.Scenario.TestNG@1fa121e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="filter()[pri:3, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:16 IST" name="filter" finished-at="2025-07-08T13:29:18 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:18 IST" name="getResult" finished-at="2025-07-08T13:29:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filter status=SUCCESS method=TestNG.filter()[pri:3, instance:test.Scenario.TestNG@1fa121e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:18 IST" name="tearDown" finished-at="2025-07-08T13:29:22 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.Scenario.TestNG@1fa121e2]" started-at="2025-07-08T13:29:22 IST" name="flushReport" finished-at="2025-07-08T13:29:23 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- test.Scenario.TestNG -->
+    </test> <!-- Test on Chrome -->
+    <test started-at="2025-07-08T13:29:23 IST" name="Test on Edge" finished-at="2025-07-08T13:29:43 IST" duration-ms="20871">
+      <class name="test.Scenario.TestNG">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:23 IST" name="startReporter" finished-at="2025-07-08T13:29:23 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:23 IST" name="driverInstantiation" finished-at="2025-07-08T13:29:31 IST" duration-ms="8146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:31 IST" name="navigatingToHomePage" finished-at="2025-07-08T13:29:37 IST" duration-ms="5798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:37 IST" name="getResult" finished-at="2025-07-08T13:29:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNG.navigatingToHomePage()[pri:1, instance:test.Scenario.TestNG@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="navigatingToResult()[pri:2, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:37 IST" name="navigatingToResult" finished-at="2025-07-08T13:29:38 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:38 IST" name="getResult" finished-at="2025-07-08T13:29:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToResult status=SUCCESS method=TestNG.navigatingToResult()[pri:2, instance:test.Scenario.TestNG@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="filter()[pri:3, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:38 IST" name="filter" finished-at="2025-07-08T13:29:40 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:40 IST" name="getResult" finished-at="2025-07-08T13:29:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filter status=SUCCESS method=TestNG.filter()[pri:3, instance:test.Scenario.TestNG@bccb269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:40 IST" name="tearDown" finished-at="2025-07-08T13:29:43 IST" duration-ms="3425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.Scenario.TestNG@bccb269]" started-at="2025-07-08T13:29:43 IST" name="flushReport" finished-at="2025-07-08T13:29:43 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- test.Scenario.TestNG -->
+    </test> <!-- Test on Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

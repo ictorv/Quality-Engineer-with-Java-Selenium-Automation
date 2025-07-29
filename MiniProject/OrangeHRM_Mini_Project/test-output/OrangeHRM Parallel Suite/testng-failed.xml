@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [OrangeHRM Parallel Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.test.utilities.ExtentReportsManager"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="OrangeHRM Test - Edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.test.testCases.TestMain">
+        <methods>
+          <include name="editEmployeeTest"/>
+          <include name="tearDown"/>
+          <include name="addEmployeeTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.testCases.TestMain -->
+    </classes>
+  </test> <!-- OrangeHRM Test - Edge(failed) -->
+  <test thread-count="2" parallel="tests" name="OrangeHRM Test - Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.testCases.TestMain">
+        <methods>
+          <include name="editEmployeeTest"/>
+          <include name="tearDown"/>
+          <include name="addEmployeeTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.testCases.TestMain -->
+    </classes>
+  </test> <!-- OrangeHRM Test - Chrome(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Parallel Suite] -->

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-30T10:01:49 IST" name="Suite" finished-at="2025-06-30T10:03:16 IST" duration-ms="86959">
+    <groups>
+    </groups>
+    <test started-at="2025-06-30T10:01:49 IST" name="ChromeTest" finished-at="2025-06-30T10:02:28 IST" duration-ms="39871">
+      <class name="com.test.testScenario.HotelAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:49 IST" name="setup" finished-at="2025-06-30T10:01:54 IST" duration-ms="5840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="stratReport()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:54 IST" name="stratReport" finished-at="2025-06-30T10:01:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratReport -->
+        <test-method signature="cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:55 IST" name="cityInitialize" data-provider="dp" finished-at="2025-06-30T10:01:57 IST" duration-ms="1645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2025-07-27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2025-07-30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityInitialize -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:57 IST" name="getResult" finished-at="2025-06-30T10:01:57 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cityInitialize status=SUCCESS method=HotelAvailabilityTest.cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:57 IST" name="screnShot" finished-at="2025-06-30T10:01:57 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method signature="result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:01:57 IST" name="result" finished-at="2025-06-30T10:02:16 IST" duration-ms="19410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:02:16 IST" name="getResult" finished-at="2025-06-30T10:02:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=result status=SUCCESS method=HotelAvailabilityTest.result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:02:16 IST" name="screnShot" finished-at="2025-06-30T10:02:17 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method is-config="true" signature="erase()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:02:17 IST" name="erase" finished-at="2025-06-30T10:02:27 IST" duration-ms="10644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:02:27 IST" name="tearDown" finished-at="2025-06-30T10:02:28 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@fbd1f6]" started-at="2025-06-30T10:02:28 IST" name="writeDataIntoExcel" finished-at="2025-06-30T10:02:28 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+      </class> <!-- com.test.testScenario.HotelAvailabilityTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-06-30T10:02:28 IST" name="EdgeTest" finished-at="2025-06-30T10:03:16 IST" duration-ms="47052">
+      <class name="com.test.testScenario.HotelAvailabilityTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:28 IST" name="setup" finished-at="2025-06-30T10:02:38 IST" duration-ms="9140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="stratReport()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:38 IST" name="stratReport" finished-at="2025-06-30T10:02:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratReport -->
+        <test-method signature="cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:38 IST" name="cityInitialize" data-provider="dp" finished-at="2025-06-30T10:02:40 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2025-07-27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2025-07-30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityInitialize -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:40 IST" name="getResult" finished-at="2025-06-30T10:02:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cityInitialize status=SUCCESS method=HotelAvailabilityTest.cityInitialize(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:40 IST" name="screnShot" finished-at="2025-06-30T10:02:40 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method signature="result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:02:40 IST" name="result" finished-at="2025-06-30T10:03:09 IST" duration-ms="29264" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[empty String]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: empty String
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:792)
+at com.test.testObjects.FilterResult.lambda$0(FilterResult.java:113)
+at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+at java.base/java.util.TimSort.sort(TimSort.java:234)
+at java.base/java.util.Arrays.sort(Arrays.java:1308)
+at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:353)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:528)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at com.test.testObjects.FilterResult.getTopFive(FilterResult.java:117)
+at com.test.testScenario.HotelAvailabilityTest.result(HotelAvailabilityTest.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:03:09 IST" name="getResult" finished-at="2025-06-30T10:03:09 IST" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=result status=FAILURE method=HotelAvailabilityTest.result()[pri:2, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screnShot()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:03:09 IST" name="screnShot" finished-at="2025-06-30T10:03:10 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screnShot -->
+        <test-method is-config="true" signature="erase()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:03:10 IST" name="erase" finished-at="2025-06-30T10:03:15 IST" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- erase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:03:15 IST" name="tearDown" finished-at="2025-06-30T10:03:15 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.test.testScenario.HotelAvailabilityTest@4c39bec8]" started-at="2025-06-30T10:03:15 IST" name="writeDataIntoExcel" finished-at="2025-06-30T10:03:16 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+      </class> <!-- com.test.testScenario.HotelAvailabilityTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T17:00:56 IST" name="Suite" finished-at="2025-06-20T17:01:32 IST" duration-ms="36188">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T17:00:56 IST" name="Test Chrome" finished-at="2025-06-20T17:01:14 IST" duration-ms="17810">
+      <class name="com.testing.scenario.TestNGMain">
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:00:56 IST" name="driverInstantiation" finished-at="2025-06-20T17:01:06 IST" duration-ms="9754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:06 IST" name="startReporter" finished-at="2025-06-20T17:01:06 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:06 IST" name="navigatingToHomePage" finished-at="2025-06-20T17:01:10 IST" duration-ms="3603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:10 IST" name="getResult" finished-at="2025-06-20T17:01:10 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNGMain.navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:10 IST" name="screeShot" finished-at="2025-06-20T17:01:10 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="projectList()[pri:2, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:10 IST" name="projectList" finished-at="2025-06-20T17:01:10 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectList -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:10 IST" name="getResult" finished-at="2025-06-20T17:01:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectList status=SUCCESS method=TestNGMain.projectList()[pri:2, instance:com.testing.scenario.TestNGMain@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:10 IST" name="screeShot" finished-at="2025-06-20T17:01:11 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:11 IST" name="navigatingToEnquiry" finished-at="2025-06-20T17:01:11 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToEnquiry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:11 IST" name="getResult" finished-at="2025-06-20T17:01:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToEnquiry status=SUCCESS method=TestNGMain.navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@77847718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:11 IST" name="screeShot" finished-at="2025-06-20T17:01:11 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:11 IST" name="tearDown" finished-at="2025-06-20T17:01:14 IST" duration-ms="2646" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.testing.UserDefineLibraries.ExcelReadOrWriteUtility.closeFile()" because "this.eds" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.testing.UserDefineLibraries.ExcelReadOrWriteUtility.closeFile()" because "this.eds" is null
+at com.testing.scenario.TestNGMain.tearDown(TestNGMain.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:14 IST" name="writeDataIntoExcel" finished-at="2025-06-20T17:01:14 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+        <test-method is-config="true" signature="writeDtaEmail()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:14 IST" name="writeDtaEmail" finished-at="2025-06-20T17:01:14 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDtaEmail -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.testing.scenario.TestNGMain@77847718]" started-at="2025-06-20T17:01:14 IST" name="flushReport" finished-at="2025-06-20T17:01:14 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.testing.scenario.TestNGMain -->
+    </test> <!-- Test Chrome -->
+    <test started-at="2025-06-20T17:01:14 IST" name="Test Edge" finished-at="2025-06-20T17:01:32 IST" duration-ms="18334">
+      <class name="com.testing.scenario.TestNGMain">
+        <test-method is-config="true" signature="driverInstantiation(java.lang.String)[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:14 IST" name="driverInstantiation" finished-at="2025-06-20T17:01:24 IST" duration-ms="9671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstantiation -->
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:24 IST" name="startReporter" finished-at="2025-06-20T17:01:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method signature="navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:24 IST" name="navigatingToHomePage" finished-at="2025-06-20T17:01:27 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:27 IST" name="getResult" finished-at="2025-06-20T17:01:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToHomePage status=SUCCESS method=TestNGMain.navigatingToHomePage()[pri:1, instance:com.testing.scenario.TestNGMain@692f203f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:27 IST" name="screeShot" finished-at="2025-06-20T17:01:27 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="projectList()[pri:2, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:27 IST" name="projectList" finished-at="2025-06-20T17:01:28 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectList -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="getResult" finished-at="2025-06-20T17:01:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectList status=SUCCESS method=TestNGMain.projectList()[pri:2, instance:com.testing.scenario.TestNGMain@692f203f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="screeShot" finished-at="2025-06-20T17:01:28 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method signature="navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="navigatingToEnquiry" finished-at="2025-06-20T17:01:28 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToEnquiry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="getResult" finished-at="2025-06-20T17:01:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigatingToEnquiry status=SUCCESS method=TestNGMain.navigatingToEnquiry()[pri:3, instance:com.testing.scenario.TestNGMain@692f203f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="screeShot()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="screeShot" finished-at="2025-06-20T17:01:28 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screeShot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:28 IST" name="tearDown" finished-at="2025-06-20T17:01:32 IST" duration-ms="3822" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.testing.UserDefineLibraries.ExcelReadOrWriteUtility.closeFile()" because "this.eds" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.testing.UserDefineLibraries.ExcelReadOrWriteUtility.closeFile()" because "this.eds" is null
+at com.testing.scenario.TestNGMain.tearDown(TestNGMain.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="writeDataIntoExcel()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:32 IST" name="writeDataIntoExcel" finished-at="2025-06-20T17:01:32 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDataIntoExcel -->
+        <test-method is-config="true" signature="writeDtaEmail()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:32 IST" name="writeDtaEmail" finished-at="2025-06-20T17:01:32 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeDtaEmail -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.testing.scenario.TestNGMain@692f203f]" started-at="2025-06-20T17:01:32 IST" name="flushReport" finished-at="2025-06-20T17:01:32 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.testing.scenario.TestNGMain -->
+    </test> <!-- Test Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

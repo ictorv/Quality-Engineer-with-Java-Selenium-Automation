@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T11:02:42 IST" name="CrossBrowserSuite" finished-at="2025-07-04T11:04:56 IST" duration-ms="134068">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T11:02:42 IST" name="ChromeTest" finished-at="2025-07-04T11:03:48 IST" duration-ms="66063">
+      <class name="testRepository.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:02:42 IST" name="startReporter" finished-at="2025-07-04T11:02:42 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:02:42 IST" name="setUp" finished-at="2025-07-04T11:02:52 IST" duration-ms="9444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:02:52 IST" name="setValues" finished-at="2025-07-04T11:02:52 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method signature="loginTest()[pri:1, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:02:52 IST" name="loginTest" finished-at="2025-07-04T11:03:31 IST" duration-ms="38864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:31 IST" name="getResult" finished-at="2025-07-04T11:03:31 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TestMain.loginTest()[pri:1, instance:testRepository.TestMain@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="searchValidationTest()[pri:2, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:31 IST" name="searchValidationTest" finished-at="2025-07-04T11:03:39 IST" duration-ms="7974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:39 IST" name="getResult" finished-at="2025-07-04T11:03:39 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidationTest status=SUCCESS method=TestMain.searchValidationTest()[pri:2, instance:testRepository.TestMain@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="invalidSignupTest()[pri:3, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:39 IST" name="invalidSignupTest" finished-at="2025-07-04T11:03:42 IST" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignupTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:42 IST" name="getResult" finished-at="2025-07-04T11:03:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSignupTest status=SUCCESS method=TestMain.invalidSignupTest()[pri:3, instance:testRepository.TestMain@20d525] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:42 IST" name="tearDown" finished-at="2025-07-04T11:03:47 IST" duration-ms="5474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testRepository.TestMain@20d525]" started-at="2025-07-04T11:03:47 IST" name="flushReport" finished-at="2025-07-04T11:03:48 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testRepository.TestMain -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-07-04T11:03:48 IST" name="EdgeTest" finished-at="2025-07-04T11:04:56 IST" duration-ms="67977">
+      <class name="testRepository.TestMain">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:03:48 IST" name="startReporter" finished-at="2025-07-04T11:03:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:03:48 IST" name="setUp" finished-at="2025-07-04T11:03:56 IST" duration-ms="8266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:03:56 IST" name="setValues" finished-at="2025-07-04T11:03:56 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method signature="loginTest()[pri:1, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:03:56 IST" name="loginTest" finished-at="2025-07-04T11:04:39 IST" duration-ms="42457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:39 IST" name="getResult" finished-at="2025-07-04T11:04:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=TestMain.loginTest()[pri:1, instance:testRepository.TestMain@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="searchValidationTest()[pri:2, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:39 IST" name="searchValidationTest" finished-at="2025-07-04T11:04:47 IST" duration-ms="8040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:47 IST" name="getResult" finished-at="2025-07-04T11:04:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidationTest status=SUCCESS method=TestMain.searchValidationTest()[pri:2, instance:testRepository.TestMain@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="invalidSignupTest()[pri:3, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:47 IST" name="invalidSignupTest" finished-at="2025-07-04T11:04:51 IST" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignupTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:51 IST" name="getResult" finished-at="2025-07-04T11:04:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSignupTest status=SUCCESS method=TestMain.invalidSignupTest()[pri:3, instance:testRepository.TestMain@38e79ae3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:51 IST" name="tearDown" finished-at="2025-07-04T11:04:56 IST" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testRepository.TestMain@38e79ae3]" started-at="2025-07-04T11:04:56 IST" name="flushReport" finished-at="2025-07-04T11:04:56 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testRepository.TestMain -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

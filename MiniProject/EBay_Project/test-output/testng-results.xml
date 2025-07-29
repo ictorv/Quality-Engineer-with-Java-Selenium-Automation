@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T17:38:26 IST" name="Suite" finished-at="2025-06-20T17:39:40 IST" duration-ms="73882">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T17:38:26 IST" name="EbayTest - Chrome" finished-at="2025-06-20T17:39:06 IST" duration-ms="40629">
+      <class name="com.ebay.runner.mainNG">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.ebay.runner.mainNG@40005471]" started-at="2025-06-20T17:38:26 IST" name="driverConfig" finished-at="2025-06-20T17:38:36 IST" duration-ms="9944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testHomepage()[pri:1, instance:com.ebay.runner.mainNG@40005471]" started-at="2025-06-20T17:38:36 IST" name="testHomepage" finished-at="2025-06-20T17:38:37 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomepage -->
+        <test-method signature="testfilterPage(java.lang.String,java.lang.String)[pri:2, instance:com.ebay.runner.mainNG@40005471]" started-at="2025-06-20T17:38:39 IST" name="testfilterPage" data-provider="prodFilter" finished-at="2025-06-20T17:38:47 IST" duration-ms="8159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[outdoor toys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toys & Hobbies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfilterPage -->
+        <test-method signature="testfinalPage()[pri:3, instance:com.ebay.runner.mainNG@40005471]" started-at="2025-06-20T17:38:47 IST" name="testfinalPage" finished-at="2025-06-20T17:39:01 IST" duration-ms="13611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfinalPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.runner.mainNG@40005471]" started-at="2025-06-20T17:39:01 IST" name="tearDown" finished-at="2025-06-20T17:39:06 IST" duration-ms="5384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.runner.mainNG -->
+    </test> <!-- EbayTest - Chrome -->
+    <test started-at="2025-06-20T17:39:07 IST" name="EbayTest - Edge" finished-at="2025-06-20T17:39:40 IST" duration-ms="32833">
+      <class name="com.ebay.runner.mainNG">
+        <test-method is-config="true" signature="driverConfig(java.lang.String)[pri:0, instance:com.ebay.runner.mainNG@6a2f6f80]" started-at="2025-06-20T17:39:07 IST" name="driverConfig" finished-at="2025-06-20T17:39:13 IST" duration-ms="6195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="testHomepage()[pri:1, instance:com.ebay.runner.mainNG@6a2f6f80]" started-at="2025-06-20T17:39:13 IST" name="testHomepage" finished-at="2025-06-20T17:39:14 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomepage -->
+        <test-method signature="testfilterPage(java.lang.String,java.lang.String)[pri:2, instance:com.ebay.runner.mainNG@6a2f6f80]" started-at="2025-06-20T17:39:14 IST" name="testfilterPage" data-provider="prodFilter" finished-at="2025-06-20T17:39:22 IST" duration-ms="7608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[outdoor toys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Toys & Hobbies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfilterPage -->
+        <test-method signature="testfinalPage()[pri:3, instance:com.ebay.runner.mainNG@6a2f6f80]" started-at="2025-06-20T17:39:22 IST" name="testfinalPage" finished-at="2025-06-20T17:39:32 IST" duration-ms="10515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfinalPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.runner.mainNG@6a2f6f80]" started-at="2025-06-20T17:39:32 IST" name="tearDown" finished-at="2025-06-20T17:39:40 IST" duration-ms="7138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.runner.mainNG -->
+    </test> <!-- EbayTest - Edge -->
+  </suite> <!-- Suite -->
+</testng-results>

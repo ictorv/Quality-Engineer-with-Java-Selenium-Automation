@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-24T21:46:08 IST" name="EmployeeAutomationSuite" finished-at="2025-06-24T21:47:16 IST" duration-ms="67995">
+    <groups>
+    </groups>
+    <test started-at="2025-06-24T21:46:08 IST" name="EmployeeTest - Chrome" finished-at="2025-06-24T21:46:46 IST" duration-ms="37639">
+      <class name="com.test.testCases.EmpTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.testCases.EmpTest@3eb738bb]" started-at="2025-06-24T21:46:08 IST" name="setUp" finished-at="2025-06-24T21:46:14 IST" duration-ms="5306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddEmployee()[pri:1, instance:com.test.testCases.EmpTest@3eb738bb]" started-at="2025-06-24T21:46:14 IST" name="testAddEmployee" finished-at="2025-06-24T21:46:33 IST" duration-ms="19188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method signature="testEditEmployeeDetails()[pri:2, instance:com.test.testCases.EmpTest@3eb738bb]" started-at="2025-06-24T21:46:33 IST" name="testEditEmployeeDetails" finished-at="2025-06-24T21:46:41 IST" duration-ms="8600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditEmployeeDetails -->
+        <test-method signature="testLogout()[pri:3, instance:com.test.testCases.EmpTest@3eb738bb]" started-at="2025-06-24T21:46:41 IST" name="testLogout" finished-at="2025-06-24T21:46:43 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testCases.EmpTest@3eb738bb]" started-at="2025-06-24T21:46:43 IST" name="tearDown" finished-at="2025-06-24T21:46:46 IST" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testCases.EmpTest -->
+    </test> <!-- EmployeeTest - Chrome -->
+    <test started-at="2025-06-24T21:46:46 IST" name="EmployeeTest - Edge" finished-at="2025-06-24T21:47:16 IST" duration-ms="30100">
+      <class name="com.test.testCases.EmpTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.testCases.EmpTest@ae13544]" started-at="2025-06-24T21:46:46 IST" name="setUp" finished-at="2025-06-24T21:46:50 IST" duration-ms="3884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddEmployee()[pri:1, instance:com.test.testCases.EmpTest@ae13544]" started-at="2025-06-24T21:46:50 IST" name="testAddEmployee" finished-at="2025-06-24T21:47:05 IST" duration-ms="14421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method signature="testEditEmployeeDetails()[pri:2, instance:com.test.testCases.EmpTest@ae13544]" started-at="2025-06-24T21:47:05 IST" name="testEditEmployeeDetails" finished-at="2025-06-24T21:47:11 IST" duration-ms="6257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditEmployeeDetails -->
+        <test-method signature="testLogout()[pri:3, instance:com.test.testCases.EmpTest@ae13544]" started-at="2025-06-24T21:47:11 IST" name="testLogout" finished-at="2025-06-24T21:47:12 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testCases.EmpTest@ae13544]" started-at="2025-06-24T21:47:12 IST" name="tearDown" finished-at="2025-06-24T21:47:16 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testCases.EmpTest -->
+    </test> <!-- EmployeeTest - Edge -->
+  </suite> <!-- EmployeeAutomationSuite -->
+</testng-results>
