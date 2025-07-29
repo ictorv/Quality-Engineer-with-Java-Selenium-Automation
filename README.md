@@ -5,7 +5,7 @@ v3
 ![img](/resource/overall.png)
 ![img](/resource/comp.png)
 
-> 1 out of 1200 in intern batch for oncampus 2025 😇
+> 1st out of 1200 candidates in the 2025 on-campus Java Automation internship batch 😇
 
 ### Instruction to Copy Paste
 
